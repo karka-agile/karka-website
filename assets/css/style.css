@@ -1,0 +1,7542 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Lexend' !important;
+    font-style: normal !important;
+    font-weight: 400;
+    width: 100%;
+    height: 100%;
+}
+.container-60{
+    max-width: 60% !important;
+}
+.container-85{
+    max-width: 85% !important;
+}
+.container-95{
+    max-width: 95% !important;
+}
+.container-98{
+    max-width: 98% !important;
+}
+.container-100{
+    max-width: 100% !important;
+}
+/* .min-vh-80 {
+    min-height: 70vh !important;
+} */
+.heigth-80{
+   height: 70vh !important;
+}
+.img-height{
+    height: 90% !important;
+}
+.google-review{
+    width: 15% !important;
+    /* background: #C0C0C0; */
+    /* #b97a7a */
+    text-align: center;
+}
+.review-img{
+    background: #FFF;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    /* background: linear-gradient(0deg, #876187 0.08%, #6D416D 100.08%) !important; */
+}
+/* nav button view start css  */
+.btn-bg{
+    background-color: #6D416D !important;
+}
+.bg-review{
+    background: none !important;
+}
+#progressbar {
+	position: fixed;
+	height: 5px;
+	z-index: 999;
+	top: 78px;
+	left: 0;
+	right: calc( 100% );
+	background-color: #6D416D !important;
+	transition: right .5s linear 0s;
+}
+.navbar-toggler.collapsed .navbar-toggler-icon .navbar-toggler-bar.bar1 {
+    margin-top: 5px !important;
+}
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-bar.bar1{
+    margin-top: 8px;
+    margin-left: 6px;
+}
+.navbar-toggler.collapsed .navbar-toggler-icon .navbar-toggler-bar.bar3 {
+    margin-top:4px !important;
+    margin-left:4px;
+}
+.navbar-toggler .navbar-toggler-icon .navbar-toggler-bar.bar3 {
+    margin-left:6px;
+}
+.navbar-toggler.collapsed .navbar-toggler-icon .navbar-toggler-bar.bar3 {
+    margin-top: 7px !important;
+}
+.avatar-sm {
+    width: 60px !important;
+    height: 36px !important;
+    font-size: 0.875rem;
+}
+.card-look{
+    background: linear-gradient(180deg, #3E3D45 0%, #202020 100%);
+    border-radius: 12px;
+}
+.owl-prev{
+    font: initial !important;
+}
+.owl-next{
+    font: initial !important;
+}
+/* nav button view end css  */
+/* scroll button css start  */
+#btn-back-to-top {
+    background-color: #6D416D !important;
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    display: none;
+    z-index: 999;
+    border-radius: 25px;
+  }
+  /* scroll button css start  */
+#btn-brochure {
+    display: block !important;
+    background-color: #6D416D !important;
+    position: fixed;
+    bottom: 95px;
+    right: 20px;
+    z-index: 999;
+    border-radius: 25px;
+  }
+  #btn-whatsapp {
+    display: block !important;
+    background-color: #6D416D !important;
+    position: fixed;
+    bottom: 150px;
+    right: 20px;
+    z-index: 999;
+    border-radius: 25px;
+  }
+  #btn-review{
+    position: fixed;
+    bottom: 205px;
+    right: 20px;
+    z-index: 999;
+    border-radius: 25px;
+    /* background-color: #ecca22; */
+    /* background: #FFF; */
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+  }
+  .fa-google {
+    background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+  }
+  /* placement page owl-carosul button css */
+  .placement-top{
+    padding-top: 125px;
+  }
+  .placement-place h3,h4{
+    font-family: 'Lexend' !important;
+    font-weight: 400;
+  }
+  .owl-nav{
+    text-align: center;
+  }
+  .owl-nav button{
+    margin: 10px !important;
+    width: 40px !important;
+    height: 10vh !important;
+    background-color: #542454 !important;
+    color: #FFF !important;
+    border-radius: 10px !important;
+  }
+  .owl-nav button span{
+    font-size: x-large;
+  } 
+ .instructor-img .link-position{
+    width: 60px !important;
+    left: -15px;
+    top: -25px;
+    border-radius: 0px !important;
+  }
+  /* about page css  */
+  .about-bg{
+    padding-top: 85px;
+  }
+  /* fullstack page company list css start  */
+
+  .fullstack-top{
+    padding-top: 88px;
+  }
+  /* Slider */
+  .slick-slide {
+      margin: 0px 20px;
+  }
+  
+  .slick-slide img {
+      width: 100%;
+  }
+  
+  .slick-slider
+  {
+      position: relative;
+      display: block;
+      box-sizing: border-box;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+              user-select: none;
+      -webkit-touch-callout: none;
+      -khtml-user-select: none;
+      -ms-touch-action: pan-y;
+          touch-action: pan-y;
+      -webkit-tap-highlight-color: transparent;
+  }
+  
+  .slick-list
+  {
+      position: relative;
+      display: block;
+      overflow: hidden;
+      margin: 0;
+      padding: 0;
+  }
+  .slick-list:focus
+  {
+      outline: none;
+  }
+  .slick-list.dragging
+  {
+      cursor: pointer;
+      cursor: hand;
+  }
+  
+  .slick-slider .slick-track,
+  .slick-slider .slick-list
+  {
+      -webkit-transform: translate3d(0, 0, 0);
+         -moz-transform: translate3d(0, 0, 0);
+          -ms-transform: translate3d(0, 0, 0);
+           -o-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+  }
+  
+  .slick-track
+  {
+      position: relative;
+      top: 0;
+      left: 0;
+      display: block;
+  }
+  .slick-track:before,
+  .slick-track:after
+  {
+      display: table;
+      content: '';
+  }
+  .slick-track:after
+  {
+      clear: both;
+  }
+  .slick-loading .slick-track
+  {
+      visibility: hidden;
+  }
+  
+  .slick-slide
+  {
+      display: none;
+      float: left;
+      height: 100%;
+      min-height: 1px;
+  }
+  [dir='rtl'] .slick-slide
+  {
+      float: right;
+  }
+  .slick-slide img
+  {
+      display: block;
+  }
+  .slick-slide.slick-loading img
+  {
+      display: none;
+  }
+  .slick-slide.dragging img
+  {
+      pointer-events: none;
+  }
+  .slick-initialized .slick-slide
+  {
+      display: block;
+  }
+  .slick-loading .slick-slide
+  {
+      visibility: hidden;
+  }
+  .slick-vertical .slick-slide
+  {
+      display: block;
+      height: auto;
+      border: 1px solid transparent;
+  }
+  .slick-arrow.slick-hidden {
+      display: none;
+  }
+/* index.php css start */
+/* header navbar css start  */
+.home .white-logo{
+    display: none;
+}
+.fee-sections .white-logo{
+    display: none;
+}
+.bootcamp .white-logo{
+    display: none;
+}
+.about-us .white-logo{
+    display: none;
+}
+
+.nav-page li a.active{
+    color:#92278f !important;
+    text-decoration: underline;
+}
+.full-nav a.active{
+    color: #FFF !important;
+    text-decoration: underline;
+
+}
+/* nav button view start css  */
+ /* @media (max-width: 1200px) { */     
+    .btn-bg{
+        background-color: #6D416D !important;
+    }
+    /* nav button view end css  */
+    /* index.php css start */
+    /* header navbar css start  */
+    .home .white-logo{
+        display: none;
+    }
+    .fee-sections .white-logo{
+        display: none;
+    }
+    .bootcamp .white-logo{
+        display: none;
+    }
+    .about-us .white-logo{
+        display: none;
+    }
+    .nav-page a{
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px !important;
+        line-height: 30px;
+        color: #000 !important;
+    }
+    .nav-page a img{
+        color: #FFF !important;
+    }
+    .list-mar{
+        margin-right: 10px;
+    }
+    .apply-now{
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 20px !important;
+        line-height: 30px !important;
+        text-align: right !important;
+        color: #FFFFFF !important;
+        background: linear-gradient(0deg, #876187 0.08%, #6D416D 100.08%) !important;
+        box-shadow: 0px 2px 6px rgba(109, 65, 109, 0.25) !important;
+        border-radius: 8px !important;
+    }
+    /* header navbar css end  */
+    /* main section css start  */
+    /* header carousel section  css start */
+    .carousel-mar{
+        padding-bottom: 7% !important;
+        background: #FFFFFF;
+        box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+        border-radius: 12px;
+    }
+    /* .section-karka{
+        margin-top: 120px !important;
+        padding-bottom: 109px;
+    } */
+    .section-karka h2{
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 600 !important;
+        font-size: 96px !important;
+        line-height: 80px !important;
+        color: #6D416D !important;
+    }
+    .academy-font h3{
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 600 !important;
+        font-size: 50px !important;
+        color: #000 !important;
+    }
+    .content-para{
+        margin-top: 93px;
+    }
+    .section-karka p{
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 24px !important;
+        line-height: 35px !important;
+        color: #344767 !important;
+    }
+    .rs{
+        color: #ED4814;
+    }
+    .read-more{
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 22px;
+        color: #6D416D;
+    }
+    /* header carosual css end  */
+    /* why-karka section css start  */
+    .why-karka{
+        margin-top: 0px;
+        background: #542454 !important;
+        border-radius: 12px !important;
+    }
+    .why-karka h3{
+        margin-top: 52px;
+        margin-bottom: 65px;
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 36px !important;
+        line-height: 47px !important;
+        color: #FFFFFF !important;
+    }
+    .why-karka p{
+        margin-top: 40px;
+        margin-bottom: 36px;
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 24px !important;
+        line-height: 34px !important;
+        color: #FFFFFF !important;
+    }
+    /* why-karka section css end  */
+    /* blog section css start  */
+    .blog-section{
+        margin-top: 67px;
+        margin-bottom: 89px;
+    }
+    .blog-section h2{
+        margin-bottom: 33px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        text-align: center;
+        line-height: 46px;
+        color: #344767;
+    }
+    .blog-section p{
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 34px;
+        text-align: center;
+        color: #7B809A;
+    }
+    /* blog section css end  */
+    ourmission css start 
+    .our-mission span{
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 40px;
+        color: #92278F;
+    }
+    .mission-1{
+        top: 36% !important;
+        left: 55.8% !important;
+        width: 2.5% !important;
+    }
+    .mission-2{
+        top: 66% !important;
+        left: 55.8% !important;
+        width: 2.5% !important;
+    }
+    .mission-3{
+        top: 80% !important;
+        left: 48.8% !important;
+        width: 2.5% !important;
+    }
+    .mission-4{
+        top: 36% !important;
+        left: 41.5% !important;
+        width: 2.5% !important;
+    }
+    .mission-5{
+        top: 66% !important;
+        left: 41.5% !important;
+        width: 2.5% !important;
+    }
+    .text-mission-1{
+        top: 30% !important;
+        left: 61% !important;
+    }
+    .text-mission-2{
+        top: 66% !important;
+        left: 61% !important;
+    }
+    .text-mission-3{
+        top: 97% !important;
+        left: 40% !important;
+    }
+    .text-mission-4{
+        top: 32% !important;
+        left: 22% !important;
+    }
+    .text-mission-5{
+        top: 60% !important;
+        left:22% !important;
+    }
+    .mission-section h1{
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 31px;
+        line-height: 41px;
+        color: #000000;
+    }
+    .mission-section h1 span{
+        font-size: 50px;
+        line-height: 60px;
+        color: #6D416D;
+    }
+    /* course-section css start  */
+    .course-section{
+        background-image: linear-gradient(195deg, #6D416D 0%, #6D416D 100%);
+        color: #FFF;
+    }
+    .course-section h3{
+        margin-top: 50px;
+        margin-bottom: 42px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 47px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .course-section p{
+        margin-bottom: 41px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 34px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    /* owl-carosual css start  */
+    .owl-item > div {
+        cursor: pointer;
+        margin: 6% 8%;
+        transition: margin 0.4s ease;
+    }
+    .owl-item.center > div {
+        cursor: auto;
+        margin: 0;
+    }
+    .owl-item:not(.center) > div:hover {
+        opacity: .75;
+    }
+    .owl-section{
+        background: #FFFFFF; 
+        box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+        border-radius: 12px;
+    }
+    .card-view{
+        padding: 30px;
+        background: #FFFFFF;
+        box-shadow: 0px 2px 6px rgba(151, 172, 198, 0.25);
+        border-radius: 10px;
+    }
+    .post-content h5{
+        margin-top: 13px;
+        margin-bottom: 7px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 22px;
+        color: #6D416D;
+    }
+    .post-content h4{
+        margin-bottom: 13px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: #6D416D;
+    }
+    .post-content p{
+        margin-bottom: 26px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        color: #7B809A;
+    }
+    .post-content a{
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #6D416D;
+    }
+    .all-course button{
+        background: linear-gradient(180deg, #755075 0%, #6D416D 100%);
+        box-shadow: 0px 4px 4px #6D416D;
+        border-radius: 9px;
+        
+    }
+    .all-course button{
+        padding: 13px 66px;
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 12px !important;
+        line-height: 22px !important;
+        color: #FFFFFF !important;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    /* course css end  */
+    /* master css start  */
+    .master-box h2{
+        margin-top: 119px;
+        margin-bottom: 111px;
+        text-align: center;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 46px;
+        color: #344767;
+    }
+    .master-box{
+        margin-bottom:169px;
+    }
+    /* master css end  */
+    /* instructor css start  */
+    .instructor{
+        background-color: #6D416D !important;
+        margin-bottom: 0px;
+    }
+    .instructor-title h3{
+        margin-top: 71px;
+        margin-bottom: 19px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 46px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .instructor-title p{
+        margin-bottom: 35px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 34px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .instructor h5{
+        margin-top: 26px;
+        margin-bottom: 12px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        color: #344767;
+    }
+    .instructor h6{
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 34px;
+        color: #6D416D !important;
+    }
+    .instructor-img img{
+        padding-bottom: 10px;
+        margin-left: -12px;
+    }
+    .card-gap{
+        margin-right: 176px;
+    }
+    /* instructor css end  */
+    /* enroll css start  */
+    .enroll-process{
+        margin-top: 128px;
+    }
+    .enroll-process h3{
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 46px;
+        color: #344767;
+        text-transform: none;
+        text-align: center;
+    }
+    /* enroll css end  */
+    /* review css start  */
+    .review-section{
+        /* padding-bottom: 200px; */
+        background-image: linear-gradient(195deg, #6D416D 0%, #040404 100%) !important;
+        color: #FFF;
+    }
+
+    .review-title h3{
+        margin-top: 67px;
+        margin-bottom: 39px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 46px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .review-title p{
+        margin-bottom: 97px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 34px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .card-review p{
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        color: #000000;
+    }
+    .more-review{
+        margin-top: 44px;
+        margin-bottom: 55px;
+    }
+    .more-review a{
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 34px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    /* review css end  */
+    /* address section css start  */
+    .address-section h1{
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 58px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .bg-color{
+        background: linear-gradient(180deg, #92278F 0%, #D587E4 100%);
+        border-radius: 8px;
+      }
+      .address-section h5{
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        color: #344767;
+      }
+      .address-section p{
+        margin-top: 13px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #7B809A;
+      }
+    /* address section css end  */
+    /* company-tab css start  */
+    .company-tab{
+        background: #FFF;
+        border-radius: 20px;
+    }
+    .company-tab h1{
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 47px;
+        color: #344767;
+        text-transform: none;
+    }
+    .px-104{
+        padding-left: 6.5rem!important;
+        padding-right: 6.5rem!important;
+        padding-bottom: 25px !important;
+    }
+    .p-16 {
+        padding: 1rem!important;
+    }
+    .company-tab img{
+        padding-bottom: 32px;
+    }
+    /* company-tab css end  */
+    /* main section css end  */
+    /* footer css start  */
+    .footer-section{
+        padding-top: 125px !important;
+        padding-bottom: 75px !important;
+    }
+    footer p{
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 26px;
+        color: #000000;
+    }
+    footer a{
+        margin-right: 40px !important;
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 400 !important ;
+        font-size: 14px !important;
+        line-height: 24px !important;
+        color: #000000 !important;
+        opacity: 0.7 !important;
+    }
+    footer .get-in{
+        padding: 10px 30px;
+        background: linear-gradient(180deg, #876187 0%, #6D416D 100%) !important;
+        border-radius: 8px !important;
+        filter: drop-shadow(0px 2px 6px rgba(40, 129, 235, 0.36)) !important;
+        border : none; 
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 12px !important;
+        line-height: 22px !important;
+        text-align: center !important;
+        color: #FFFFFF !important;
+    }
+    /* footer css end  */
+    /* index.php css end  */
+
+    /* fee_app.php css start */
+    /* header navbar css start  */
+    .pap-header{
+        padding: 0;
+        position: relative;
+        overflow: hidden;
+        align-items: center;
+        height: 97vh;
+        background-size: 100% 100%;
+    }
+    .back-img{
+        padding-bottom: 160px;
+    }
+    .what-section{
+        margin-top: 69px;
+        margin-bottom: 44px;
+    }
+    .pap-content h2{
+        margin-bottom: 16px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 58px;
+        color: #6D416D;
+    }
+    .pap-content h4{
+        margin-bottom: 35px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 58px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .pap-content p{
+        margin-bottom: 32px;
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 24px !important;
+        line-height: 34px !important;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .what-pap{
+        background-image: linear-gradient(195deg, #6D416D 0%, #6D416D 100%);
+        color: #FFF;
+    }
+    .what-section h2{
+        margin-bottom: 28px;
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 46px;
+        color: #FFFFFF;
+    }
+    .what-section p {
+        margin-bottom: 68px;
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 34px;
+        color: #FFFFFF;
+    }
+    .what-section .what-apply{
+        padding: 14px 46px;
+        margin-top: 68px;
+        border: none;
+        background: linear-gradient(180deg, #3E3D45 0%, #202020 100%);
+        border-radius: 8px;
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 22px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    /* header css end  */
+    /* section css start  */
+    section{
+        margin-top: 61px;
+    }
+    .fee-step h3{
+        margin-bottom: 30px;
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 46px;
+        text-align: center;
+        color: #344767;
+    }
+    .fee-step p{
+        margin-bottom: 37px;
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 34px;
+        text-align: center;
+        color: #7B809A;
+    }
+    .card-background{
+        box-shadow: none !important;
+    }
+    .card-background::after{
+        width: 0% !important;
+    }
+    .full-background {
+        padding: 237px 0px;
+        background: #C7CCD0;
+        mix-blend-mode: multiply;
+        border-radius: 12px !important;
+    }
+    .agree-content h3{
+        margin-top: 50px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 46px;
+        color: #FFFFFF;
+    }
+    .agree-bottom{
+        margin-bottom: 25px;
+    }
+    .process-top{
+        margin-top: 31px !important;
+    }
+    .process-bottom{
+        margin-top: 119px !important;
+    }
+    .agree-step h5{
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 32px;
+        color: #344767;
+    }
+    .agree-step{
+        padding-right: 60px;
+        padding-left: 20px;
+    }
+    .agree-step p{
+        margin-top: 15px;
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #7B809A;
+    }
+    .pap-concept{
+        margin-top: 0px !important;
+    }
+    /* section css end  */
+    /* fee-app css end */
+
+    /* bootcamp css start  */
+    .bootcamp-title{
+        padding-top: 85px;
+        background: #6D416D !important;
+        opacity: 0.8 !important;
+    }
+    .bootcamp-title h2{
+        padding-top: 168px;
+        padding-bottom: 218px;
+        text-align: center;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 58px;
+        color: #FFF;
+    }
+    /* bootcamp content css start  */
+    .bootcamp-karka{
+        background: #FFF !important;
+        border-radius: 12px !important;
+    }
+    .bootcamp-karka{
+        padding: 53px 61px;
+        margin-bottom: 103px !important;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        color: #100F0F;
+    }
+    /* bootcamp content css end  */
+    /* .bootcamp-course css start  */
+    .boot-background{
+        background-position: 35% !important;
+        background-color: #FFF !important;
+    }
+    .course-content h3{
+        margin-top: 68px;
+        margin-bottom: 90px !important;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 40px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .course-content p{
+        margin-bottom: 59px !important;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .course-content button{
+        padding: 13px 22px;
+        margin-bottom: 69px;
+        background: linear-gradient(0deg, #FFF9FF, #FFF9FF);
+        box-shadow: 0px 2px 6px rgba(220, 34, 101, 0.36);
+        border-radius: 8px;
+        border: none;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: #000000;
+    }
+    .bootcamp-top-1{
+        margin-bottom: 40px;
+    }
+    .bootcamp-details {
+        margin-top: 0px;
+    }
+    .bootcamp-content h2{
+        margin-bottom: 6px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 50px;
+        color: #344767;
+    }
+    .bootcamp-content p {
+        margin-bottom: 21px;
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #7B809A;
+    }
+    .bootcamp-content h5{
+        margin-bottom: 38px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 38px;
+        color: #344767;
+    }
+    .bootcamp-step h5{
+        margin-bottom: 30px !important;
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 24px !important;
+        line-height: 34px !important;
+        color: #344767 !important;
+    }
+    .course-content{
+        margin-bottom: 0px;
+    }
+    /* bootcamp-course css end  */
+    /* bootcamp css end  */
+    /* fullstack css start   */
+    /* header css start  */
+    .pap-header{
+        width: 100%;
+        background-image: none;
+    }
+    .full-content{
+        margin-top: 134px;
+    }
+    .full-content h6{
+        margin-bottom: 14px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 34px;
+        color: #000;
+    }
+    .full-content h2{
+        margin-bottom: 18px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 58px;
+        color: #000;
+    }
+    .full-content p{
+        margin-bottom: 10px;
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 34px;
+        color: #000;
+    }
+    .full-content button{
+        padding: 8px 16px;
+        margin-bottom: 200px;
+        background: linear-gradient(180deg, #876187 0%, #6D416D 100%);
+        box-shadow: 0px 2px 6px rgba(220, 34, 101, 0.36);
+        border-radius: 8px;
+        border: none;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 22px;
+        text-align: right;
+        color: #FFFFFF;
+    }
+    .fullstack{
+        background: #876187;
+        box-shadow: 0px 2px 6px rgba(151, 172, 198, 0.25);
+        border-radius: 10px;
+    }
+    .fullstack-nav{
+        box-shadow: none !important;
+        background: #876187 !important;
+    }
+    .full-nav a{
+        padding: 47px 0px !important;
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 20px !important;
+        line-height: 30px !important;
+        color: #FFF !important;
+    }
+    /* header css end  */
+    /* overview css start  */
+
+    /* navbar fixed css start */
+    .stick-margin{
+        margin-left: -2% !important;
+    }
+    .header.sticky-element{
+        position: fixed;
+        width:100%;
+        top: 60px;
+        z-index: 999;
+        animation: smoothScroll 1s forwards
+    }
+    .sticky-element .full-nav a{
+        padding: 20px 0px !important;
+    }
+    @keyframes smoothScroll {
+        0% {
+            transform: translateY(-40px);
+        }
+        100% {
+            transform: translateY(0px);
+        }
+    }
+
+    @keyframes reverseScroll {
+        0% {
+        transform: translateY(0px);
+        }
+        100% {
+            transform: translateY(-2px);
+        }
+    }
+    /* navbar fixed css end  */
+    .overview-top{
+        margin-top:37px;
+        margin-bottom: 113px;
+        background: #FFFFFF;
+        box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+        border-radius: 12px;
+    }
+    .over-top{
+        margin-top: 150px;
+    }
+    .overview-title h3{
+        margin-bottom: 29px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 38px;
+        text-align: center;
+        color: #344767;
+    }
+    .overview-title p{
+        margin-bottom: 37px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #7B809A;
+    }
+    .overview-row h5{
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: #344767;
+    }
+    .overview-row p{
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #7B809A;
+    }
+    .overview-row ul{
+        padding-left: 15px;
+    }
+    .overview-row ul li{
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #7B809A;
+    }
+    .overview-apply h2{
+        margin-bottom: 19px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 42px;
+        text-align: center;
+        color: #344767;
+    }
+    .overview-apply p{
+        margin-bottom: 24px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 34px;
+        text-align: center;
+        color: #7B809A;
+    }
+    .overview-apply ul li{
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #344767;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    /* overview css end  */
+    /* placement css start  */
+    .placement-top{
+        margin-top: 163px;
+    }
+    .place-top{
+        margin-top: 200px !important;
+    }
+    .card-color{
+        background: linear-gradient(180deg, #876187 0%, #6D416D 100%);
+        box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+        border-radius: 0px;
+    }
+    .placement-title h4{
+        margin-bottom: 96px;
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 38px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .placement-subcontent h5{
+        margin-top: 16px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        color: #FFFFFF;
+    }
+    .placement-subcontent p{
+        margin-bottom: 40px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #FFFFFF;
+    }
+    .placement-card h5{
+        margin-top: 15px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        color: #344767;
+    }
+    .placement-card p{
+        margin-top: 10px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #7B809A;
+    }
+    .placement-card a {
+        margin-top: 25px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #E91F63;
+        
+    }
+    /* placement css end  */
+    /* placement company css start  */
+    .placement-bottom{
+        margin-bottom: 160px !important;
+    }
+    .company-logo h3{
+        margin-top: 91px;
+        margin-bottom: 56px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 32px;
+        text-align: center;
+        color: #344767;
+    }
+    /* palcement company css end  */
+    /* fee css start  */
+    .fee-design{
+        margin-top: 164px;
+        margin-bottom: 136px;
+    }
+    .fee-titles h2{
+        padding-top: 100px;
+        margin-bottom: 13px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 38px;
+        text-align: center;
+        color: #344767;
+    }
+    .fee-titles p{
+        margin-bottom: 65px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #7B809A;
+    }
+    .fee-background{
+        background-position: 0% !important;
+        padding: 210px 0px !important;
+        background-repeat: no-repeat;
+    }
+    .fee-title p{
+        margin-bottom: 17px !important;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .fee-title h3{
+        margin-bottom: 14px !important;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 40px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .fee-steps h5{
+        margin-bottom: 9px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: #344767;
+    }
+    .fee-steps p {
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #7B809A;
+    }
+    /* fee css end  */
+    /* benifit css start  */
+    .benifit-section {
+        margin-top: 136px !important;
+        margin-bottom: 177px !important;
+    }
+    .benifit-section h2{
+        padding-top: 100px;
+        padding-bottom: 30px;
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px !important;
+        line-height: 38px;
+        text-align: center !important;
+        color: #344767 !important;
+    }
+    .benefit-section table thead tr th{
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 10px !important;
+        line-height: 20px !important;
+        color: #7B809A !important;
+    }
+    .table-back{
+        background: #FFFFFF;
+        box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+        border-radius: 12px;
+    }
+    tbody tr td  h6{
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 12px !important;
+        line-height: 22px !important;
+        color: #344767 !important;
+    }
+    tbody tr td p{
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 12px !important;
+        line-height: 22px !important;
+        color: #7B809A !important;
+    }
+    tbody tr td span{
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 12px !important;
+        line-height: 22px !important;
+        color: #7B809A !important;
+    }
+    /* benifit css end  */
+    /* admission css start  */
+    .bg-admission{
+        background-image: linear-gradient(195deg, #6D416D 0%, #6D416D 100%);
+        color: #FFF;
+    }
+    .admission-apply-now{
+        padding: 8px 16px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 22px;
+        text-align: right;
+        color: #FFFFFF;
+        background: linear-gradient(180deg, #876187 0%, #6D416D 100%);
+        box-shadow: 0px 2px 6px rgba(220, 34, 101, 0.36);
+        border-radius: 8px;
+        border: none;
+    }
+    .admissioon-top h3{
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 600 !important  ;
+        font-size: 30px !important ;
+        line-height: 40px !important;
+        text-align: center !important;
+        color: #FFFFFF!important;
+    }
+    .admissioon-top p{
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 16px !important;
+        line-height: 29px !important;
+        text-align: center !important;
+        color: #FFFFFF !important;
+    }
+    .admissioon-top h4{
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 24px !important;
+        line-height: 34px !important;  
+        color: #7B809A !important;
+    }
+    /* admission css end  */
+    /* mentor css start  */
+    .mentor-section{
+        margin-top: 115px;
+    }
+    .mentor-section h2{
+        padding-top: 100px;
+        margin-bottom: 92px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 40px;
+        color: #344767;
+    }
+    .mentor-section h4{
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 34px;
+        color: #344767 !important;
+    }
+    .mentor-section p{
+        margin-top: 16px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: #6D416D !important
+    }
+    /* mentor css end  */
+    /* curriculam css start  */
+    .curriculam-section {
+        margin-top: 195px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .curriculam-title{
+        padding-top: 100px;
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400;
+    }
+    .curriculam-title h3{
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 36px;
+    }
+    .bg-curriculam{
+        background: linear-gradient(180deg, #876187 0%, #6D416D 100%);
+        border-radius: 12px;
+    }
+    .curriculam-card{
+        padding: 80px 25px 0px 25px !important;
+    }
+    .curriculam-card h5{
+        margin-top: 50px !important;
+    }
+    .h3{
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 40px;
+        color: #344767;
+    }
+    .curriculam-top{
+        margin-top: 90px;
+    }
+    .curriculam-top h5{
+        margin-bottom:25px !important;
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 400;
+        font-size: 24px !important;
+        line-height: 34px; 
+    }
+    .curriculam-top h4{
+        margin-bottom: 20px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .curriculam-top p{
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        opacity: 0.5;
+    }
+    .curriculam-top button{
+        margin-top: 55px;
+        padding: 8px 16px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 22px;
+        text-align: right;
+        color: #000000;
+    }
+    /* curriculam css end  */
+    /* fqa css start  */
+    .faq-section{
+        margin-top: 190px;
+    }
+    .faq-start{
+        margin-top: 110px;
+    }
+    .bg-faq{
+        background: linear-gradient(180deg, #876187 0%, #6D416D 100%) !important;
+        box-shadow: 0px 2px 6px rgba(40, 129, 235, 0.36) !important;
+        border-radius: 8px !important;
+    }
+    .bg-faq h6{
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #344767;
+    }
+    .bg-faq p{
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #7B809A;
+    }
+    /* fqa css end  */
+    /* about_us css start  */
+    .about-title h2{
+        margin-top: 102px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 46px;
+        line-height: 54px;
+        color: #92278F;
+    }
+    .about-title p {
+        margin-top: 81px;
+        margin-bottom: 140px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 36px;
+        color: #FFFDFD;
+        
+    }
+    .about-card{
+        background: #FFFFFF !important;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 6px rgba(151, 172, 198, 0.25) !important;
+        border-radius: 12px !important;
+    }
+    .bg-about{
+        background: linear-gradient(180deg, #876187 99.99%, #DA1F63 100%);
+        box-shadow: 0px 2px 6px rgba(220, 34, 101, 0.36);
+        border-radius: 8px;
+    }
+    .about-us h5{
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 46px;
+        color: #F9FBFF;
+    }
+    .about-us .sub-para{
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 36px;
+        color: #000000 !important;
+    }
+    .about-us p{
+        padding: 50px 30px 30px 30px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 32px;
+        color: #000000;
+    }
+    .about-founder{
+        margin-top: 217px;
+    }
+    .about-founder h3{
+        margin-top: 80px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 46px;
+        color: #344767;
+    }
+    .about-founder p{
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 42px;
+        color: #6D416D !important;;
+    }
+    /* about_us end  */
+    /* fullstack css end  */
+
+    /* mobile view css  */
+    .navbar-collapse.show {
+        background: #876187 !important;
+    }
+/* } */
+
+
+/* moblie view css start  */
+
+@media (min-width: 320px) {
+    .modal-body h2{
+        font-size: 24px !important;
+        font-family: 'lexend' !important;
+        font-weight:400 !important; 
+        text-transform:uppercase;
+    }
+    .modal-body p{
+        font-size: 18px !important;
+        line-height: 28px;
+        font-family: 'lexend' !important;
+        font-weight:400 !important; 
+        text-transform:uppercase;
+    }
+    .heigth-80{
+        height: 70vh !important;
+     }
+    .carousel-mar{
+        padding-bottom: 0% !important;
+        background: #FFFFFF;
+        box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+        border-radius: 12px;
+    }
+    .nav-page .brochuer{
+        padding: 6px;
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 16px !important;
+        line-height: 30px !important;
+        text-align: right !important;
+        color: #000 !important;
+        background:#FFF !important;
+        box-shadow: 0px 2px 6px rgba(109, 65, 109, 0.25) !important;
+        border-radius: 8px !important;
+    }
+    .nav-title{
+        padding: 0rem 1rem !important;
+      }
+      .nav-page li a.nav-title::after{
+        content: '';
+        display: block;
+        width: 0px;
+        height: 1.5px;
+        background: #fff;
+        transition: width .3s
+      }
+      .nav-page li .underline.active {
+        height: 3px;
+        background-color: #FFF;
+        width: 6%;
+        transition: width 0.2s, background-color 0.5s;
+        margin: 0px 0px;
+    }
+    .device-width{
+        width: 100%;
+    }
+   .instructor-img .link-position{
+        width: 40px !important;
+        left: 65px;
+        top: -25px;
+        border-radius: 0px !important;
+      }
+    .pap-header{
+        width: 100%;
+        background-image:none !important;
+    }
+    .nav-page li a.active {
+        color: #FFF !important;
+        text-decoration: underline;
+    }
+    .apply-now {
+        padding: 5px !important;
+    }
+    .nav-page a{
+        color: #FFF !important;
+    }
+    .nav-page i{
+        color: #FFF !important;
+    }
+    /* index page css start  */
+    .btn-bg {
+        padding: 4px !important;
+    }
+    .apply-now{
+        padding: 5px 10px !important;
+        margin-right: 20px;
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 16px !important;
+        line-height: 26px !important;
+        text-align: right !important;
+        color: #FFFFFF !important;
+        background: linear-gradient(0deg, #876187 0.08%, #6D416D 100.08%) !important;
+        box-shadow: 0px 2px 6px rgb(109 65 109 / 25%) !important;
+        border-radius: 8px !important;
+    }
+    .apply-now a{
+        padding: 10px;
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 12px !important;
+        line-height: 22px !important;
+        text-align: right !important;
+        color: #FFFFFF !important;
+        border-radius: 8px !important;
+    }
+    .section-karka h2 {
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 600 !important;
+        font-size: 60px !important;
+        line-height: 70px !important;
+        color: #6D416D !important;
+    }
+    .content-para {
+        margin-top: 25px !important;
+    }
+    .section-karka p {
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 20px !important;
+        line-height: 30px !important;
+        color: #344767 !important;
+    }
+    .why-karka{
+        margin-top: -45px !important;
+    }
+    .why-karka h3{
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 32px !important;
+        text-align: center !important;
+        line-height: 42px !important;
+        color: #FFFFFF !important;
+    }
+    .why-karka p{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 500 !important;
+        font-size: 13px !important;
+        line-height: 23px !important;
+        color: #FFFFFF !important;
+    }
+    .blog-section{
+        margin-top: 35px !important;
+        margin-bottom: 40px !important;
+    }
+    .blog-section h2{
+        margin-bottom: 20px !important;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px !important;
+        text-align: center;
+        line-height: 45px;
+        color: #344767;
+    }
+    .blog-section p{
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        color: #7B809A;
+    }
+    .course-section h3{
+        margin-top: 30px;
+        margin-bottom: 20px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 42px;
+        text-align: center;
+    }
+    .course-section p{
+        margin-bottom: 60px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+    }
+    .post-content h5 {
+        margin-top: 13px;
+        margin-bottom: 7px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        color: #6D416D;
+    }
+    .post-content h4{
+        margin-bottom: 13px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 32px;
+        color: #6D416D;
+    }
+    .post-content p{
+        margin-bottom: 18px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        color: #7B809A;
+    }
+    .post-content a {
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #6D416D;
+    }
+    .owl-dots{
+        padding: 0 0 25px 0px !important;
+        text-align: center;
+        margin-top: -25px;
+    }
+    .owl-dot {
+        background: #7B809A !important;
+        width: 20px !important;
+        height: 20px !important;
+        margin-right: 10px !important;
+        border: none;
+        font: inherit;
+        border-radius: 100% !important;
+    }
+    .owl-dot.active{
+        background: #542454 !important;
+    }
+    .all-course{
+        padding-bottom: 10px !important;
+    }
+    .all-course button{
+        margin-top: 0 !important;
+        padding-bottom: 10px !important;
+    }
+    .master-box{
+        margin-bottom: 40px;
+    }
+    .master-box h2{
+        margin-top: 40px;
+        margin-bottom: 40px;
+        text-align: center;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 38px;
+        color: #344767;
+    }
+    .master-box img{
+        width: 100% !important;
+    }
+    .instructor{
+        background-color: #6D416D !important;
+    }
+    .instructor-title{
+        margin-top: 0px !important;
+    }
+    .instructor-title h3{
+        margin-top: 0px;
+        margin-bottom: 15px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 38px;
+        text-align: center;
+    }
+    .instructor-title p{
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+    }
+    .instructor-img img{
+        width: 50% !important;
+        border-radius: 20px;
+    }
+     .company-tab{
+        background: #FFF;
+        border-radius: 20px;
+    }
+    .company-tab h1{
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 40px;
+        color: #344767;
+        text-transform: none;
+    }
+    .px-104{
+        padding-left: 1.5rem!important;
+        padding-right: 1.5rem!important;
+        padding-bottom: 25px !important;
+    }
+    .p-16 {
+        padding: 1rem!important;
+    }
+    .company-tab img{
+        padding-bottom: 32px;
+    }
+    .review-title h3{
+        margin-top: 25px;
+        margin-bottom: 30px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 40px;
+        text-align: center;
+    }
+    .review-title p{
+        margin-bottom: 20px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        text-align: center;
+    }
+    .card-review p{
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 22px;
+        text-align: center;
+        color: #000000;
+    }
+    .more-review {
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+    .footer-section {
+        padding-top: 50px !important;
+        padding-bottom: 50px !important;
+    }
+
+    /* .our-mission mobile css start  */
+    .wrapper {
+        width: auto;
+        height: auto;
+    }
+    .circle {
+        width: 60px;
+        height: 60px;
+        background: #FFF;
+        border-radius: 100px;
+        border: 3px solid #000;
+        position: relative;
+    } 
+    .vertical-line {
+        width: 2px;
+        height: 0px;
+        background: #000;
+        border: 2px solid #000;
+        margin: 0px 9%;
+    }
+    .mobile-mission{
+        top:25%;
+        left: 25%;
+    }
+    .mobile-text-mission-1{
+        top: 5%;
+        left: 25%;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+        color: #92278F;
+    }
+    .mobile-text-mission-2{
+        top: 22%;
+        left: 25%;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+        color: #92278F;
+    }
+    .mobile-text-mission-3{
+        top: 42%;
+        left: 25%;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+        color: #92278F;
+    }
+    .mobile-text-mission-4{
+        top: 66%;
+        left: 25%;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+        color: #92278F;
+    }
+    .mobile-text-mission-5{
+        top: 82%;
+        left: 25%;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+        color: #92278F;
+    }
+    .mission-section h1 span{
+        font-size: 40px !important;
+        line-height: 50px !important;
+        color: #6D416D !important;
+    }
+     /* index page css end  */
+     /* bootcamp css start  */
+     .bootcamp-title h2 {
+        padding-top: 30px;
+        padding-bottom: 145px;
+        text-align: center;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 35px;
+        line-height: 45px;
+        color: #FFF;
+    }
+    .bootcamp-karka{
+        padding: 20px 0px;
+        margin-bottom: 80px !important;
+    }
+    .bootcamp-karka p{
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 22px;
+        color: #100F0F;
+    }
+    .agree-step {
+        padding-right: 0px;
+        padding-left: 30px;
+    }
+    .bootcamp-content h2 {
+        margin-bottom: 6px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 34px;
+        color: #344767;
+    }
+    .bootcamp-content p {
+        margin-bottom: 18px;
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #7B809A;
+    }
+    .bootcamp-content h5 {
+        margin-bottom: 15px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 36px;
+        color: #344767;
+    }
+    .bootcamp-step h5 {
+        margin-bottom: 15px !important;
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 20px !important;
+        line-height: 30px !important;
+        color: #344767 !important;
+    }
+    .course-content h3 {
+        margin-top: 68px;
+        margin-bottom: 60px !important;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 38px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .course-content p {
+        margin-bottom: 56px !important;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .course-content{
+        margin-bottom: 0px;
+    }
+    .course-content button {
+        padding: 9px 14px;
+        margin-bottom: 69px;
+        background: linear-gradient(0deg, #FFF9FF, #FFF9FF);
+        box-shadow: 0px 2px 6px rgb(220 34 101 / 36%);
+        border-radius: 8px;
+        border: none;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        color: #000000;
+    }
+    .bootcamp-details {
+        margin-top: 50px;
+    }
+      /* course page brochure css start */
+      .custom-btn {
+        width: 130px;
+        height: 40px;
+        color: #fff;
+        border-radius: 5px;
+        padding: 10px 25px;
+        font-family: 'Lato', sans-serif;
+        font-weight: 500;
+        background: transparent;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        position: relative;
+        display: inline-block;
+        box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+        7px 7px 20px 0px rgba(0,0,0,.1),
+        4px 4px 5px 0px rgba(0,0,0,.1);
+        outline: none;
+    }
+    .btn-12{
+      position: relative;
+      right: 50%;
+      bottom: 20px;
+      border:none;
+      box-shadow: none;
+      width: 130px;
+      height: 40px;
+      line-height: 42px;
+      -webkit-perspective: 230px;
+      perspective: 230px;
+    }
+    .btn-12 span {
+        background: linear-gradient(0deg, #876187 0.08%, #6D416D 100.08%) !important;
+        box-shadow: 0px 2px 6px rgb(109 65 109 / 25%) !important;
+        display: block;
+        position: absolute;
+        width: 220px;
+        height: 40px;
+        box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+        7px 7px 20px 0px rgba(0,0,0,.1),
+        4px 4px 5px 0px rgba(0,0,0,.1);
+        border-radius: 5px;
+        margin:0;
+        text-align: center;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        -webkit-transition: all .3s;
+        transition: all .3s;
+        font-family: 'Lexend';
+        font-weight: 500;
+    }
+    .btn-12 span:nth-child(1) {
+        box-shadow:
+        -7px -7px 20px 0px #fff9,
+        -4px -4px 5px 0px #fff9,
+        7px 7px 20px 0px #0002,
+        4px 4px 5px 0px #0001;
+        -webkit-transform: rotateX(90deg);
+        -moz-transform: rotateX(90deg);
+        transform: rotateX(90deg);
+        -webkit-transform-origin: 50% 50% -20px;
+        -moz-transform-origin: 50% 50% -20px;
+        transform-origin: 50% 50% -20px;
+    }
+    .btn-12 span:nth-child(2) {
+      -webkit-transform: rotateX(0deg);
+      -moz-transform: rotateX(0deg);
+      transform: rotateX(0deg);
+      -webkit-transform-origin: 50% 50% -20px;
+      -moz-transform-origin: 50% 50% -20px;
+      transform-origin: 50% 50% -20px;
+    }
+    .btn-12:hover span:nth-child(1) {
+      box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+       7px 7px 20px 0px rgba(0,0,0,.1),
+       4px 4px 5px 0px rgba(0,0,0,.1);
+      -webkit-transform: rotateX(0deg);
+      -moz-transform: rotateX(0deg);
+      transform: rotateX(0deg);
+    }
+    .btn-12:hover span:nth-child(2) {
+      box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+       7px 7px 20px 0px rgba(0,0,0,.1),
+       4px 4px 5px 0px rgba(0,0,0,.1);
+      color: transparent;
+      -webkit-transform: rotateX(-90deg);
+      -moz-transform: rotateX(-90deg);
+      transform: rotateX(-90deg);
+    }
+     /* course page brochure css end */
+     /* bootcamp css end  */
+     /* fee_pap css start  */
+     .fee-section{
+        margin-top: 0px;
+        padding-top: 85px;
+    }
+     .pap-content h2 {
+        margin-bottom: 12px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 44px;
+        line-height: 54px;
+        color: #6D416D;
+    }
+    .pap-content h4 {
+        margin-bottom: 24px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 26px;
+        text-align: center;
+        color: #000;
+    }
+    .pap-content p {
+        margin-bottom: 20px;
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 16px !important;
+        line-height: 26px !important;
+        text-align: center;
+        color: #000;
+    }
+    .agree-content h3 {
+        margin-top: 10px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 34px;
+        color: #FFFFFF;
+    }
+    .what-section {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .what-section h2 {
+        margin-bottom: 20px;
+        margin-bottom: 20px;
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 40px;
+        color: #FFFFFF;
+    }
+    .what-section p {
+        margin-bottom: 10px !important;
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #FFFFFF;
+    }
+    .what-section .what-apply {
+        padding: 8px 16px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        border: none;
+        background: #FFF;
+        border-radius: 8px;
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 22px;
+        text-align: center;
+        color: #000;
+    }
+    .fee-step h3 {
+        margin-bottom: 20px;
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 40px;
+        text-align: center;
+        color: #344767;
+    }
+    .fee-step p {
+        margin-bottom: 28px;
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 27px;
+        text-align: center;
+        color: #7B809A;
+    }
+    .pap-concept {
+        margin-top: 50px !important;
+    }
+    .process-bottom {
+        margin-top: 300px !important;
+    }
+    .agree-step h5 {
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: #344767;
+    }
+    .agree-step p {
+        margin-top: 15px;
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #7B809A;
+    }
+    .card-padding{
+        padding-bottom: 380px;
+    }
+     /* fee_pap css end  */
+     /* fullstack css start  */
+     .full-content {
+        margin-top: 40px;
+    }
+    .main-content{
+        width: 100%;
+    }
+    .full-content h6 {
+        margin-bottom: 14px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 32px;
+        color: #000;
+    }
+    .full-content h2 {
+        margin-bottom: 16px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 34px;
+        color: #000;
+    }
+    .full-content p {
+        margin-bottom: 10px;
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: #000;
+    } 
+    .full-content button {
+        padding: 8px 16px;
+        margin-bottom: 0px;
+        background: linear-gradient(180deg, #876187 0%, #6D416D 100%);
+        box-shadow: 0px 2px 6px rgb(220 34 101 / 36%);
+        border-radius: 8px;
+        border: none;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 22px;
+        text-align: right;
+        color: #FFFFFF;
+    }
+    section {
+        margin-top: 0px;
+    }
+    .over-top {
+        margin-top: 100px;
+    }
+    .blockquote li{
+        padding: 10px 0px !important;
+    }
+    .overview-title h3 {
+        margin-bottom: 25px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 32px;
+        text-align: center;
+        color: #344767;
+    }
+    .overview-title p {
+        margin-bottom: 10px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        color: #7B809A;
+    }
+    .overview-row h5 {
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        color: #344767;
+    }
+    .overview-row p {
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #7B809A;
+    }
+    .overview-top {
+        margin-top: 37px;
+        margin-bottom: 80px;
+        background: #FFFFFF;
+        box-shadow: 0px 2px 6px rgb(0 0 0 / 25%);
+        border-radius: 12px;
+    }
+    .overview-apply h2 {
+        margin-bottom: 12px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 40px;
+        text-align: center;
+        color: #344767;
+    }
+    .overview-apply p {
+        margin-bottom: 20px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 32px;
+        text-align: center;
+        color: #7B809A;
+    }
+    .placement-top{
+        margin-top: 0px;
+        padding-top: 0px !important;
+    }
+    .placement-place{
+        padding-top: 100px !important;
+    }
+    .place-top {
+        margin-top: 100px !important;
+    }
+    .placement-title h4 {
+        margin-bottom: 85px;
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 34px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .placement-subcontent h5 {
+        margin-top: 16px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .placement-subcontent p {
+        margin-bottom: 35px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .fee-design {
+        margin-top: 134px;
+        margin-bottom: 10px;
+    }
+    .fee-titles h2 {
+        padding-top: 10px;
+        margin-bottom: 13px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 32px;
+        text-align: center;
+        color: #344767;
+    }
+    .fee-titles p {
+        margin-bottom: 45px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        color: #7B809A;
+    }
+    .fee-title p {
+        margin-bottom: 17px !important;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .fee-title h3 {
+        margin-bottom: 14px !important;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 40px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .fee-steps h5 {
+        margin-bottom: 9px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: #344767;
+    }
+    .fee-steps p {
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #7B809A;
+    }
+    .benifit-section {
+        margin-top: 0px !important;
+        margin-bottom: 20px !important;
+    }
+    .benifit-section h2 {
+        padding-top: 60px;
+        padding-bottom: 30px;
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px !important;
+        line-height: 36px;
+        text-align: center !important;
+        color: #344767 !important;
+    }
+    .mentor-section {
+        margin-top: 0px;
+    }
+    .curriculam-section {
+        margin-top: 0px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .curriculam-title{
+        padding-top: 100px;
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400;
+    }
+    .curriculam-title h3{
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 36px;
+    }
+    .curriculam-top h4 {
+        margin-bottom: 20px !important;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .curriculam-top p {
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px !important;
+        line-height: 26px;
+    }
+    .faq-section {
+        margin-top: 10px;
+    }
+    .bg-faq p {
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #7B809A !important;
+    }
+    .about-title h2 {
+        margin-top: 10px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: #92278F;
+    }
+    .about-title p {
+        margin-top: 30px;
+        margin-bottom: 125px;
+    }
+    .about-us .sub-para {
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        color: #000000 !important;
+    }
+    .about-us h5 {
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 38px;
+        color: #F9FBFF !important;
+    }
+    .about-us p {
+        padding: 0px 0px 0px 0px;
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: #000000;
+    }
+    .about-founder {
+        margin-top: 0px;
+    }
+    .about-founder h3 {
+        margin-top: 70px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 40px;
+        color: #344767;
+    }
+    .about-solution{
+        margin-top: 130px;
+    }
+    .founder-img{
+        background-image: none !important;
+    }
+    .about-founder h3 {
+        margin-top: 30px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 27px;
+        line-height: 37px;
+        color: #344767;
+    }
+    /* address section css start  */
+    .address-section h1{
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 50px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .bg-color{
+        background: linear-gradient(180deg, #92278F 0%, #D587E4 100%);
+        border-radius: 8px;
+      }
+      .address-section h5{
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        color: #344767 !important;
+      }
+      .address-section p{
+        padding: 0px !important;
+        margin-top: 13px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        color: #7B809A;
+      }
+    /* address section css end  */
+     /* fullstack css end  */
+     /* footer css start  */
+     footer a {
+        margin-right: 10px !important;
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 14px !important;
+        line-height: 24px !important;
+        color: #000000 !important;
+        opacity: 0.7 !important;
+    }
+    footer .get-in {
+        padding: 5px 10px;
+        background: linear-gradient(180deg, #876187 0%, #6D416D 100%) !important;
+        border-radius: 8px !important;
+        filter: drop-shadow(0px 2px 6px rgba(40, 129, 235, 0.36)) !important;
+        border: none;
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 10px !important;
+        line-height: 20px !important;
+        text-align: center !important;
+        color: #FFFFFF !important;
+        margin-top:20px;
+    }
+     /* footer css end  */
+}
+@media (min-width: 420px) {
+    .heigth-80{
+        height: 90vh !important;
+     }
+    .carousel-mar{
+        padding-bottom: 0% !important;
+        background: #FFFFFF;
+        box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+        border-radius: 12px;
+    }
+    .btn-12{
+        position: relative;
+        right: 10%;
+        bottom: 20px;
+        border:none;
+        box-shadow: none;
+        width: 130px;
+        height: 40px;
+        line-height: 42px;
+        -webkit-perspective: 230px;
+        perspective: 230px;
+      }
+   .instructor-img .link-position{
+        width: 60px !important;
+        left: 90px;
+        top: -25px;
+        border-radius: 0px !important;
+      }
+    .pap-header{
+        width: 100%;
+        background-image: none !important;
+    }
+    .nav-page li .underline.active {
+        height: 3px;
+        background-color: #FFF;
+        width: 4%;
+        transition: width 0.2s, background-color 0.5s;
+        margin: 0px 0px;
+    }
+    .apply-now {
+        padding: 5px !important;
+    }
+    .nav-page a{
+        color: #FFF !important;
+    }
+    .nav-page i{
+        color: #FFF !important;
+    }
+    /* index page css start  */
+    .btn-bg {
+        padding: 4px !important;
+    }
+    .apply-now{
+        padding: 5px 10px !important;
+        margin-right: 20px;
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 16px !important;
+        line-height: 26px !important;
+        text-align: right !important;
+        color: #FFFFFF !important;
+        background: linear-gradient(0deg, #876187 0.08%, #6D416D 100.08%) !important;
+        box-shadow: 0px 2px 6px rgb(109 65 109 / 25%) !important;
+        border-radius: 8px !important;
+    }
+    .apply-now a{
+        padding: 10px;
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 12px !important;
+        line-height: 22px !important;
+        text-align: right !important;
+        color: #FFFFFF !important;
+        border-radius: 8px !important;
+    }
+    .section-karka h2 {
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 600 !important;
+        font-size: 60px !important;
+        line-height: 70px !important;
+        color: #6D416D !important;
+    }
+    .content-para {
+        margin-top: 25px !important;
+    }
+    .section-karka p {
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 20px !important;
+        line-height: 30px !important;
+        color: #344767 !important;
+    }
+    .why-karka{
+        margin-top: -45px !important;
+    }
+    .why-karka h3{
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 32px !important;
+        text-align: center !important;
+        line-height: 42px !important;
+        color: #FFFFFF !important;
+    }
+    .why-karka p{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 20px !important;
+        line-height: 30px !important;
+        color: #FFFFFF !important;
+    }
+    .blog-section{
+        margin-top: 35px !important;
+        margin-bottom: 40px !important;
+    }
+    .blog-section h2{
+        margin-bottom: 20px !important;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px !important;
+        text-align: center;
+        line-height: 45px;
+        color: #344767;
+    }
+    .blog-section p{
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        color: #7B809A;
+    }
+    .course-section h3{
+        margin-top: 30px;
+        margin-bottom: 20px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 42px;
+        text-align: center;
+    }
+    .course-section p{
+        margin-bottom: 60px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        text-align: center;
+    }
+    .post-content h5 {
+        margin-top: 13px;
+        margin-bottom: 7px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        color: #6D416D;
+    }
+    .post-content h4{
+        margin-bottom: 13px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 32px;
+        color: #6D416D;
+    }
+    .post-content p{
+        margin-bottom: 18px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        color: #7B809A;
+    }
+    .post-content a {
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #6D416D;
+    }
+    .owl-dots{
+        padding: 40px 0px !important;
+        text-align: center;
+    }
+    .owl-dot {
+        background: #7B809A !important;
+        width: 20px !important;
+        height: 20px !important;
+        margin-right: 10px !important;
+        border: none;
+        font: inherit;
+        border-radius: 100% !important;
+    }
+    .owl-dot.active{
+        background: #542454 !important;
+    }
+    .all-course{
+        padding-bottom: 10px !important;
+    }
+    .all-course button{
+        margin-top: 0 !important;
+        padding-bottom: 10px !important;
+    }
+    .master-box{
+        margin-bottom: 40px;
+    }
+    .master-box h2{
+        margin-top: 40px;
+        margin-bottom: 40px;
+        text-align: center;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 38px;
+        color: #344767;
+    }
+    .master-box img{
+        width: 75% !important;
+    }
+    .instructor{
+        background-color: #6D416D !important;
+    }
+    .instructor-title{
+        margin-top: 0px !important;
+    }
+    .instructor-title h3{
+        margin-top: 0px;
+        margin-bottom: 15px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 38px;
+        text-align: center;
+    }
+    .instructor-title p{
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        text-align: center;
+    }
+    .instructor-img img{
+        width: 50% !important;
+    }
+    .review-title h3{
+        margin-top: 25px;
+        margin-bottom: 30px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 40px;
+        text-align: center;
+    }
+    .review-title p{
+        margin-bottom: 20px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+    }
+    .card-review p{
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        color: #000000;
+    }
+    .more-review {
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+    .footer-section {
+        padding-top: 50px !important;
+        padding-bottom: 50px !important;
+    }
+    /* .our-mission mobile css start  */
+    .wrapper {
+        width: auto;
+        height: auto;
+    }
+    .circle {
+        width: 60px;
+        height: 60px;
+        background: #FFF;
+        border-radius: 100px;
+        border: 3px solid #000;
+        position: relative;
+    } 
+    .vertical-line {
+        width: 2px;
+        height: 0px;
+        background: #000;
+        border: 2px solid #000;
+        margin: 0px 6%;
+    }
+    .mobile-mission{
+        top:25%;
+        left: 25%;
+    }
+    .mobile-text-mission-1{
+        top: 5%;
+        left: 20%;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+        color: #92278F;
+    }
+    .mobile-text-mission-2{
+        top: 25%;
+        left: 20%;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+        color: #92278F;
+    }
+    .mobile-text-mission-3{
+        top: 45%;
+        left: 20%;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+        color: #92278F;
+    }
+    .mobile-text-mission-4{
+        top: 66%;
+        left: 20%;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+        color: #92278F;
+    }
+    .mobile-text-mission-5{
+        top: 84%;
+        left: 20%;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+        color: #92278F;
+    }
+    .mission-section h1 span{
+        font-size: 40px !important;
+        line-height: 50px !important;
+        color: #6D416D !important;
+    }
+     /* index page css end  */
+     /* bootcamp css start  */
+     .bootcamp-title h2 {
+        padding-top: 30px;
+        padding-bottom: 145px;
+        text-align: center;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 35px;
+        line-height: 45px;
+        color: #FFF;
+    }
+    .bootcamp-karka{
+        padding: 20px 0px;
+        margin-bottom: 80px !important;
+    }
+    .bootcamp-karka p{
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 22px;
+        color: #100F0F;
+    }
+    .agree-step {
+        padding-right: 0px;
+    }
+    .bootcamp-content h2 {
+        margin-bottom: 6px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 27px;
+        line-height: 37px;
+        color: #344767;
+    }
+    .bootcamp-content p {
+        margin-bottom: 18px;
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #7B809A;
+    }
+    .bootcamp-content h5 {
+        margin-bottom: 15px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 36px;
+        color: #344767;
+    }
+    .bootcamp-step h5 {
+        margin-bottom: 15px !important;
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 20px !important;
+        line-height: 30px !important;
+        color: #344767 !important;
+    }
+    .course-content{
+        margin-bottom: 0px;
+    }
+    .course-content h3 {
+        margin-top: 68px;
+        margin-bottom: 60px !important;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 38px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .course-content p {
+        margin-bottom: 56px !important;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .course-content button {
+        padding: 9px 14px;
+        margin-bottom: 69px;
+        background: linear-gradient(0deg, #FFF9FF, #FFF9FF);
+        box-shadow: 0px 2px 6px rgb(220 34 101 / 36%);
+        border-radius: 8px;
+        border: none;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        color: #000000;
+    }
+    .bootcamp-details {
+        margin-top: 50px;
+    }
+     /* bootcamp css end  */
+     /* fee_pap css start  */
+     /* .nav-page a{
+        color: #FFF !important;
+     } */
+     .fee-section{
+        margin-top: 0px;
+        padding-top: 80px;
+    }
+     .pap-content h2 {
+        margin-bottom: 12px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 38px;
+        line-height: 48px;
+        color: #6D416D;
+    }
+    .pap-content h4 {
+        margin-bottom: 24px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 42px;
+        text-align: center;
+        color: #000;
+    }
+    .pap-content p {
+        margin-bottom: 20px;
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 18px !important;
+        line-height: 28px !important;
+        text-align: center;
+        color: #000;
+    }
+    .what-section {
+        margin: 20px 10px;
+    }
+    .what-section h2 {
+        margin-bottom: 20px;
+        margin-bottom: 20px;
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 40px;
+        color: #FFFFFF;
+    }
+    .what-section p {
+        margin-bottom: 10px !important;
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 27px;
+        color: #FFFFFF;
+    }
+    .what-section .what-apply {
+        padding: 10px 18px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        border: none;
+        background: #FFF;
+        border-radius: 8px;
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        color: #000;
+    }
+    .fee-step h3 {
+        margin-bottom: 20px;
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 40px;
+        text-align: center;
+        color: #344767;
+    }
+    .fee-step p {
+        margin-bottom: 28px;
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 32px;
+        text-align: center;
+        color: #7B809A;
+    }
+    .pap-concept {
+        margin-top: 50px !important;
+    }
+    .process-bottom {
+        margin-top: 350px !important;
+    }
+    .agree-step h5 {
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: #344767;
+    }
+    .agree-step p {
+        margin-top: 15px;
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #7B809A;
+    }
+    .card-padding{
+        padding-bottom: 380px;
+    }
+     /* fee_pap css end  */
+     /* fullstack css start  */
+     .full-content {
+        margin-top: 50px;
+    }
+    .main-content{
+        width: 100%;
+    }
+    .full-content h6 {
+        margin-bottom: 14px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 32px;
+        color: #000;
+    }
+    .full-content h2 {
+        margin-bottom: 16px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 40px;
+        color: #000;
+    }
+    .full-content p {
+        margin-bottom: 10px;
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: #000;
+    } 
+    .full-content button {
+        padding: 8px 16px;
+        margin-bottom: 50px;
+        background: linear-gradient(180deg, #876187 0%, #6D416D 100%);
+        box-shadow: 0px 2px 6px rgb(220 34 101 / 36%);
+        border-radius: 8px;
+        border: none;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 22px;
+        text-align: right;
+        color: #FFFFFF;
+    }
+    section {
+        margin-top: 0px;
+    }
+    .over-top {
+        margin-top: 100px;
+    }
+    .overview-title h3 {
+        margin-bottom: 25px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 36px;
+        text-align: center;
+        color: #344767;
+    }
+    .overview-title p {
+        margin-bottom: 10px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        color: #7B809A;
+    }
+    .overview-row h5 {
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        color: #344767;
+    }
+    .overview-row p {
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #7B809A;
+    }
+    .overview-top {
+        margin-top: 37px;
+        margin-bottom: 80px;
+        background: #FFFFFF;
+        box-shadow: 0px 2px 6px rgb(0 0 0 / 25%);
+        border-radius: 12px;
+    }
+    .overview-apply h2 {
+        margin-bottom: 12px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 40px;
+        text-align: center;
+        color: #344767;
+    }
+    .overview-apply p {
+        margin-bottom: 20px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 32px;
+        text-align: center;
+        color: #7B809A;
+    }
+    .placement-top{
+        margin-top: 0px;
+        padding-top: 0px !important;
+    }
+    .place-top {
+        margin-top: 100px !important;
+    }    
+    .placement-title h4 {
+        margin-bottom: 85px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 34px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .placement-subcontent h5 {
+        margin-top: 16px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .placement-subcontent p {
+        margin-bottom: 35px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .fee-design {
+        margin-top: 134px;
+        margin-bottom: 10px;
+    }
+    .fee-titles h2 {
+        padding-top: 10px;
+        margin-bottom: 13px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 36px;
+        text-align: center;
+        color: #344767;
+    }
+    .fee-titles p {
+        margin-bottom: 45px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        color: #7B809A;
+    }
+    .fee-title p {
+        margin-bottom: 17px !important;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .fee-title h3 {
+        margin-bottom: 14px !important;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 40px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .fee-steps h5 {
+        margin-bottom: 9px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: #344767;
+    }
+    .fee-steps p {
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #7B809A;
+    }
+    .benifit-section {
+        margin-top: 0px !important;
+        margin-bottom: 20px !important;
+    }
+    .benifit-section h2 {
+        padding-top: 60px;
+        padding-bottom: 30px;
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px !important;
+        line-height: 36px;
+        text-align: center !important;
+        color: #344767 !important;
+    }
+    .mentor-section {
+        margin-top: 0px;
+    }
+    .curriculam-section {
+        margin-top: 0px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .curriculam-title{
+        padding-top: 100px;
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400;
+    }
+    .curriculam-title h3{
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 36px;
+    }
+    .curriculam-top h4 {
+        margin-bottom: 20px !important;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .curriculam-top p {
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px !important;
+        line-height: 26px;
+    }
+    .faq-section {
+        margin-top: 10px;
+    }
+    .bg-faq p {
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #7B809A !important;
+    }
+    .about-title h2 {
+        margin-top: 50px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 40px;
+        color: #92278F;
+    }
+    .about-title p {
+        margin-top: 30px;
+        margin-bottom: 125px;
+    }
+    .about-us .sub-para {
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: #000000 !important;
+    }
+    .about-us h5 {
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 38px;
+        color: #F9FBFF !important;
+    }
+    .about-us p {
+        padding: 0px 0px 0px 0px;
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 35px;
+        color: #000000;
+    }
+    .about-founder {
+        margin-top: 0px;
+    }
+    .about-founder h3 {
+        margin-top: 70px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 40px;
+        color: #344767;
+    }
+    .about-solution{
+        margin-top: 130px;
+    }
+    .founder-img{
+        background-image: none !important;
+    }
+    .about-founder h3 {
+        margin-top: 30px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 50px;
+        color: #344767;
+    }
+    
+     /* fullstack css end  */
+     /* footer css start  */
+     footer a {
+        margin-right: 10px !important;
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 14px !important;
+        line-height: 24px !important;
+        color: #000000 !important;
+        opacity: 0.7 !important;
+    }
+    footer .get-in {
+        padding: 5px 10px;
+        background: linear-gradient(180deg, #876187 0%, #6D416D 100%) !important;
+        border-radius: 8px !important;
+        filter: drop-shadow(0px 2px 6px rgba(40, 129, 235, 0.36)) !important;
+        border: none;
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 10px !important;
+        line-height: 20px !important;
+        text-align: center !important;
+        color: #FFFFFF !important;
+    }
+     /* footer css end  */
+}
+@media (min-width: 576px) {
+    .heigth-80{
+        height: 100vh !important;
+     }
+    .carousel-mar{
+        padding-bottom: 9% !important;
+        background: #FFFFFF;
+        box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+        border-radius: 12px;
+    }
+    .btn-12{
+        position: relative;
+        right: -50%;
+        bottom: 20px;
+        border:none;
+        box-shadow: none;
+        width: 130px;
+        height: 40px;
+        line-height: 42px;
+        -webkit-perspective: 230px;
+        perspective: 230px;
+      }
+   .instructor-img .link-position{
+        width: 60px !important;
+        left: 100px;
+        top: -25px;
+        border-radius: 0px !important;
+      }
+      .nav-page li .underline.active {
+        height: 3px;
+        background-color: #FFF;
+        width: 3%;
+        transition: width 0.2s, background-color 0.5s;
+        margin: 0px 0px;
+    }
+    .pap-header{
+        width: 100%;
+        background-image: none !important;
+    }
+    .apply-now {
+        padding: 10px !important;
+    }
+    .nav-page a{
+        color: #FFF !important;
+    }
+    .nav-page i{
+        color: #FFF !important;
+    }
+    /* index page css start  */
+    .btn-bg {
+        padding: 5px !important;
+    }
+    .apply-now{
+        margin-right: 20px;
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 16px !important;
+        line-height: 26px !important;
+        text-align: right !important;
+        color: #FFFFFF !important;
+        background: linear-gradient(0deg, #876187 0.08%, #6D416D 100.08%) !important;
+        box-shadow: 0px 2px 6px rgb(109 65 109 / 25%) !important;
+        border-radius: 8px !important;
+    }
+    .section-karka h2 {
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 600 !important;
+        font-size: 60px !important;
+        line-height: 70px !important;
+        color: #6D416D !important;
+    }
+    .content-para {
+        margin-top: 30px !important;
+    }
+    .section-karka p {
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 22px !important;
+        line-height: 32px !important;
+        color: #344767 !important;
+    }
+    .why-karka h3{
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 32px !important;
+        text-align: center !important;
+        line-height: 42px !important;
+        color: #FFFFFF !important;
+    }
+    .why-karka p{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 20px !important;
+        line-height: 30px !important;
+        color: #FFFFFF !important;
+    }
+    .blog-section{
+        margin-top: 35px !important;
+        margin-bottom: 40px !important;
+    }
+    .blog-section h2{
+        margin-bottom: 20px !important;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px !important;
+        text-align: center;
+        line-height: 45px;
+        color: #344767;
+    }
+    .blog-section p{
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 35px;
+        text-align: center;
+        color: #7B809A;
+    }
+    .course-section h3{
+        margin-top: 30px;
+        margin-bottom: 20px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 42px;
+        text-align: center;
+    }
+    .course-section p{
+        margin-bottom: 60px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+    }
+    .post-content h5 {
+        margin-top: 13px;
+        margin-bottom: 7px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        color: #6D416D;
+    }
+    .post-content h4{
+        margin-bottom: 13px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 32px;
+        color: #6D416D;
+    }
+    .post-content p{
+        margin-bottom: 18px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        color: #7B809A;
+    }
+    .post-content a {
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #6D416D;
+    }
+    .owl-dots{
+        padding: 40px 0px !important;
+        text-align: center;
+    }
+    .owl-dot {
+        background: #7B809A !important;
+        width: 20px !important;
+        height: 20px !important;
+        margin-right: 10px !important;
+        border: none;
+        font: inherit;
+        border-radius: 100% !important;
+    }
+    .owl-dot.active{
+        background: #542454 !important;
+    }
+    .all-course{
+        padding-bottom: 10px !important;
+    }
+    .all-course button{
+        margin-top: 0 !important;
+        padding-bottom: 10px !important;
+    }
+    .master-box{
+        margin-bottom: 40px;
+    }
+    .master-box h2{
+        margin-top: 40px;
+        margin-bottom: 40px;
+        text-align: center;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 28px;
+        color: #344767;
+    }
+    .master-box img{
+        width: 75% !important;
+    }
+    .instructor{
+        background-color: #6D416D !important;
+    }
+    .instructor-title{
+        margin-top: 0px !important;
+    }
+    .instructor-title h3{
+        margin-top: 0px;
+        margin-bottom: 15px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 38px;
+        text-align: center;
+    }
+    .instructor-title p{
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        text-align: center;
+    }
+    .instructor-img img{
+        width: 50% !important;
+    }
+    .review-title h3{
+        margin-top: 25px;
+        margin-bottom: 30px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 40px;
+        text-align: center;
+    }
+    .review-title p{
+        margin-bottom: 20px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+    }
+    .card-review p{
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #000000;
+    }
+    .more-review {
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+    .footer-section {
+        padding-top: 50px !important;
+        padding-bottom: 50px !important;
+    }
+     /* index page css end  */
+     /* bootcamp css start  */
+     .bootcamp-title h2 {
+        padding-top: 50px;
+        padding-bottom: 160px;
+        text-align: center;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 50px;
+        color: #FFF;
+    }
+    .bootcamp-karka{
+        padding: 20px 0px;
+        margin-bottom: 80px !important;
+    }
+    .bootcamp-karka p{
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 26px;
+        color: #100F0F;
+    }
+    .agree-step {
+        padding-right: 0px;
+    }
+    .bootcamp-content h2 {
+        margin-bottom: 6px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 42px;
+        color: #344767;
+    }
+    .bootcamp-content p {
+        margin-bottom: 18px;
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #7B809A;
+    }
+    .bootcamp-content h5 {
+        margin-bottom: 30px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 36px;
+        color: #344767;
+    }
+    .bootcamp-step h5 {
+        margin-bottom: 30px !important;
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 22px !important;
+        line-height: 32px !important;
+        color: #344767 !important;
+    }
+    .course-content{
+        margin-bottom: 0px;
+    }
+    .course-content h3 {
+        margin-top: 68px;
+        margin-bottom: 60px !important;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 38px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .course-content p {
+        margin-bottom: 56px !important;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .course-content button {
+        padding: 9px 14px;
+        margin-bottom: 69px;
+        background: linear-gradient(0deg, #FFF9FF, #FFF9FF);
+        box-shadow: 0px 2px 6px rgb(220 34 101 / 36%);
+        border-radius: 8px;
+        border: none;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        color: #000000;
+    }
+    .bootcamp-details {
+        margin-top: 50px;
+    }
+     /* bootcamp css end  */
+     /* fee_pap css start  */
+     .fee-section{
+        margin-top: 0px;
+        padding-top: 80px;
+    }
+     .pap-content h2 {
+        margin-bottom: 12px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 50px;
+        color: #6D416D;
+    }
+    .pap-content h4 {
+        margin-bottom: 24px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 35px;
+        line-height: 45px;
+        text-align: center;
+        color: #000;
+    }
+    .pap-content p {
+        margin-bottom: 30px;
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 22px !important;
+        line-height: 32px !important;
+        text-align: center;
+        color: #000;
+    }
+    .what-section {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .what-section h2 {
+        margin-bottom: 20px;
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 42px;
+        color: #FFFFFF;
+    }
+    .what-section p {
+        margin-bottom: 10px !important;
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: #FFFFFF;
+    }
+    .what-section .what-apply {
+        padding: 10px 25px;
+        margin-top: 30px;
+        border: none;
+        background: #FFF;
+        border-radius: 8px;
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #000;
+    }
+    .fee-step h3 {
+        margin-bottom: 24px;
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 42px;
+        text-align: center;
+        color: #344767;
+    }
+    .fee-step p {
+        margin-bottom: 28px;
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 32px;
+        text-align: center;
+        color: #7B809A;
+    }
+    .pap-concept {
+        margin-top: 100px !important;
+    }
+    .process-bottom {
+        margin-top: 350px !important;
+    }
+    .agree-step h5 {
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: #344767;
+    }
+    .agree-step p {
+        margin-top: 15px;
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        color: #7B809A;
+    }
+    .card-padding{
+        padding-bottom: 380px;
+    }
+     /* fee_pap css end  */
+     /* fullstack css start  */
+     .full-content {
+        margin-top: 50px;
+    }
+    .main-content{
+        width: 100%;
+    }
+    .full-content h6 {
+        margin-bottom: 14px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 34px;
+        color: #000;
+    }
+    .full-content h2 {
+        margin-bottom: 16px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 39px;
+        line-height: 49px;
+        color: #000;
+    }
+    .full-content p {
+        margin-bottom: 10px;
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 32px;
+        color: #000;
+    } 
+    .full-content button {
+        padding: 8px 16px;
+        margin-bottom: 100px;
+        background: linear-gradient(180deg, #876187 0%, #6D416D 100%);
+        box-shadow: 0px 2px 6px rgb(220 34 101 / 36%);
+        border-radius: 8px;
+        border: none;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: right;
+        color: #FFFFFF;
+    }
+    section {
+        margin-top: 0px;
+    }
+    .over-top {
+        margin-top: 100px;
+    }
+    .overview-title h3 {
+        margin-bottom: 25px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 36px;
+        text-align: center;
+        color: #344767;
+    }
+    .overview-title p {
+        margin-bottom: 10px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        color: #7B809A;
+    }
+    .overview-row h5 {
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        color: #344767;
+    }
+    .overview-row p {
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #7B809A;
+    }
+    .overview-top {
+        margin-top: 37px;
+        margin-bottom: 80px;
+        background: #FFFFFF;
+        box-shadow: 0px 2px 6px rgb(0 0 0 / 25%);
+        border-radius: 12px;
+    }
+    .overview-apply h2 {
+        margin-bottom: 12px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 40px;
+        text-align: center;
+        color: #344767;
+    }
+    .overview-apply p {
+        margin-bottom: 20px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 32px;
+        text-align: center;
+        color: #7B809A;
+    }
+    .placement-top{
+        margin-top: 0px;
+    }
+    .place-top {
+        margin-top: 100px !important;
+    }    
+    .placement-title h4 {
+        margin-bottom: 85px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 34px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .placement-subcontent h5 {
+        margin-top: 16px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .placement-subcontent p {
+        margin-bottom: 35px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .fee-design {
+        margin-top: 134px;
+        margin-bottom: 10px;
+    }
+    .fee-titles h2 {
+        padding-top: 10px;
+        margin-bottom: 13px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 36px;
+        text-align: center;
+        color: #344767;
+    }
+    .fee-titles p {
+        margin-bottom: 45px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        color: #7B809A;
+    }
+    .fee-title p {
+        margin-bottom: 17px !important;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .fee-title h3 {
+        margin-bottom: 14px !important;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 40px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .fee-steps h5 {
+        margin-bottom: 9px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: #344767;
+    }
+    .fee-steps p {
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #7B809A;
+    }
+    .benifit-section {
+        margin-top: 0px !important;
+        margin-bottom: 20px !important;
+    }
+    .benifit-section h2 {
+        padding-top: 60px;
+        padding-bottom: 30px;
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px !important;
+        line-height: 36px;
+        text-align: center !important;
+        color: #344767 !important;
+    }
+    .mentor-section {
+        margin-top: 0px;
+    }
+    .curriculam-section {
+        margin-top: 0px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .curriculam-title{
+        padding-top: 100px;
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400;
+    }
+    .curriculam-title h3{
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 36px;
+    }
+    .curriculam-top h4 {
+        margin-bottom: 20px !important;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .curriculam-top p {
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px !important;
+        line-height: 26px;
+    }
+    .faq-section {
+        margin-top: 10px;
+    }
+    .bg-faq p {
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #7B809A !important;
+    }
+    .about-title h2 {
+        margin-top: 70px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 50px;
+        color: #92278F;
+    }
+    .about-title p {
+        margin-top: 50px;
+        margin-bottom: 125px;
+    }
+    .about-us .sub-para {
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 34px;
+        color: #000000 !important;
+    }
+    .about-us h5 {
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 40px;
+        color: #F9FBFF !important;
+    }
+    .about-us p {
+        padding: 15px 30px 30px 30px;
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: #000000;
+    }
+    .about-founder {
+        margin-top: 0px;
+    }
+    .about-founder h3 {
+        margin-top: 70px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 40px;
+        color: #344767;
+    }
+    .founder-img{
+        background-image: none !important;
+    }
+    .about-founder h3 {
+        margin-top: 30px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 38px;
+        color: #344767;
+    }
+    .about-us p {
+        padding: 15px 30px 30px 30px;
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: #000000;
+    }
+    /* address section css start  */
+    .address-section h1{
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 58px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .bg-color{
+        background: linear-gradient(180deg, #92278F 0%, #D587E4 100%);
+        border-radius: 8px;
+      }
+      .address-section h5{
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        color: #344767 !important;
+      }
+      .address-section p{
+        padding: 0px !important;
+        margin-top: 13px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #7B809A;
+      }
+    /* address section css end  */
+     /* fullstack css end  */
+}
+
+@media (min-width: 768px) {
+    .modal-body h2{
+        font-size: 30px !important;
+        line-height: 40px;
+        font-family: 'lexend' !important;
+        font-weight:400 !important; 
+        text-transform:uppercase;
+    }
+    .modal-body p{
+        font-size: 22px !important;
+        line-height: 32px;
+        font-family: 'lexend' !important;
+        font-weight:400 !important; 
+        text-transform:uppercase;
+    }
+   .instructor-img .link-position{
+        width: 60px !important;
+        left: -15px;
+        top: -25px;
+        border-radius: 0px !important;
+      }
+      .nav-page li .underline.active {
+        height: 3px;
+        background-color: #FFF;
+        width: 2.5%;
+        transition: width 0.2s, background-color 0.5s;
+        margin: 0px 4px;
+    }
+    .btn-bg {
+        padding: 8px !important;
+    }
+    .full-content {
+        margin-top:100px;
+    }
+    .main-content{
+        width: 56%;
+    }
+    .apply-now {
+        margin-right: 40px;
+        padding: 12px !important;
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 15px !important;
+        line-height: 25px !important;
+        text-align: right !important;
+        color: #FFFFFF !important;
+        background: linear-gradient(0deg, #876187 0.08%, #6D416D 100.08%) !important;
+        box-shadow: 0px 2px 6px rgb(109 65 109 / 25%) !important;
+        border-radius: 8px !important;
+    }
+    .nav-page a{
+        color: #FFF !important;
+    }
+    .nav-page i{
+        color: #FFF !important;
+    }
+    /* index page css start  */
+    .section-karka h2 {
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 600 !important;
+        font-size: 86px !important;
+        line-height: 96px !important;
+        color: #6D416D !important;
+    }
+    .content-para {
+        margin-top: 50px !important;
+    }
+    .section-karka p {
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 22px !important;
+        line-height: 32px !important;
+        color: #344767 !important;
+    }
+    .why-karka h3{
+        margin-top: 32px;
+        margin-bottom: 20px;
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 32px !important;
+        text-align: center !important;
+        line-height: 42px !important;
+        color: #FFFFFF !important;
+    }
+    .why-karka p{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 18px !important;
+        line-height: 28px !important;
+        color: #FFFFFF !important;
+    }
+    .blog-section{
+        margin-top: 55px !important;
+        margin-bottom: 50px !important;
+    }
+    .blog-section h2{
+        margin-bottom: 30px !important;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px !important;
+        text-align: center;
+        line-height: 42px;
+        color: #344767;
+    }
+    .blog-section p{
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        color: #7B809A;
+    }
+    .course-section h3{
+        margin-top: 20px;
+        margin-bottom: 15px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 46px;
+        text-align: center;
+    }
+    .course-section p{
+        margin-bottom: 60px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+    }
+    .post-content h4{
+        margin-bottom: 13px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: #6D416D;
+    }
+    .post-content p{
+        margin-bottom: 18px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        color: #7B809A;
+    }
+    .all-course{
+        padding-bottom: 10px;
+    }
+    .all-course button{
+        margin-top: 0 !important;
+        padding-bottom: 10px !important;
+    }
+    .all-course button {
+        padding: 15px 20px;
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 15px !important;
+        line-height: 25px !important;
+        color: #FFFFFF !important;
+    }
+    .all-course button {
+        background: linear-gradient(180deg, #755075 0%, #6D416D 100%);
+        box-shadow: 0px 4px 4px #6d416d;
+        border-radius: 9px;
+    }
+    .owl-dots{
+        padding: 40px 0px !important;
+        text-align: center;
+    }
+    .owl-dot {
+        background: #7B809A !important;
+        width: 20px !important;
+        height: 20px !important;
+        margin-right: 10px !important;
+        border: none;
+        font: inherit;
+        border-radius: 100% !important;
+    }
+    .owl-dot.active{
+        background: #542454 !important;
+    }
+    .master-box{
+        margin-bottom: 80px;
+    }
+    .master-box h2{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        text-align: center;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 40px;
+        color: #344767;
+    }
+    .master-box img{
+        width: 75% !important;
+    }
+    .instructor{
+        background-color: #6D416D !important;
+    }
+    .instructor-title{
+        margin-top: 0px !important;
+    }
+    .instructor-title h3{
+        margin-top: 0px;
+        margin-bottom: 20px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 40px;
+        text-align: center;
+    }
+    .instructor-title p{
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        text-align: center;
+    }
+    .instructor-img img {
+        width: 75% !important;
+        border-radius: 20px !important;
+    }
+    .timeline{
+        padding-top: 140px !important;
+        padding-bottom: 10px !important;
+    }
+    .review-title h3{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 40px;
+        text-align: center;
+    }
+    .review-title p{
+        margin-bottom: 20px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+    }
+    .card-review p{
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 22px;
+        text-align: center;
+        color: #000000;
+    }
+    .more-review {
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+    /* ourmission position use css start */
+    .our-mission span{
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 32px;
+        color: #92278F;
+    }
+    .mission-1{
+        top: 36% !important;
+        left: 55.8% !important;
+        width: 2.5% !important;
+    }
+    .mission-2{
+        top: 66% !important;
+        left: 55.8% !important;
+        width: 2.5% !important;
+    }
+    .mission-3{
+        top: 80% !important;
+        left: 48.8% !important;
+        width: 2.5% !important;
+    }
+    .mission-4{
+        top: 36% !important;
+        left: 41.5% !important;
+        width: 2.5% !important;
+    }
+    .mission-5{
+        top: 66% !important;
+        left: 41.5% !important;
+        width: 2.5% !important;
+    }
+    .text-mission-1{
+        top: 27% !important;
+        left: 63% !important;
+    }
+    .text-mission-2{
+        top: 66% !important;
+        left: 63% !important;
+    }
+    .text-mission-3{
+        top: 97% !important;
+        left: 38% !important;
+    }
+    .text-mission-4{
+        top: 32% !important;
+        left: 16% !important;
+    }
+    .text-mission-5{
+        top: 60% !important;
+        left: 16% !important;
+    }
+    .mission-section h1{
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 50px;
+        color: #000000;
+    }
+    .mission-section h1 span{
+        font-size: 50px !important;
+        line-height: 60px !important;
+        color: #6D416D !important;
+    }
+    /* ourmission position use css end */
+    /* indexpage css end  */
+    /* bootcamp css start  */
+    .bootcamp-title h2 {
+        padding-top: 50px;
+        padding-bottom: 120px;
+        text-align: center;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 50px;
+        color: #FFF;
+    }
+    .bootcamp-karka{
+        padding: 20px 0px;
+        margin-bottom: 90px !important;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 22px;
+        color: #100F0F;
+    }
+    .bootcamp-karka p{
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 600 !important;
+        font-size: 18px;
+        line-height: 28px;
+        color: #100F0F;
+    }
+    .bootcamp-karka {
+        background: #FFF !important;
+        border-radius: 12px !important;
+    }
+    .bootcamp-top-1 {
+        margin-bottom:100px;
+    }
+    .bootcamp-details {
+        margin-top: 50px;
+    }
+    .bootcamp-content h2 {
+        margin-bottom: 6px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 40px;
+        color: #344767;
+    }
+    .bootcamp-content p {
+        margin-bottom: 10px;
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        color: #7B809A;
+    }
+    .bootcamp-content h5 {
+        margin-bottom: 28px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 35px;
+        color: #344767;
+    }
+    .bootcamp-step h5 {
+        margin-bottom: 30px !important;
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 24px !important;
+        line-height: 34px !important;
+        color: #344767 !important;
+    }
+    .course-content{
+        margin-bottom: 150px;
+    }
+    .course-content h3 {
+        margin-top: 30px;
+        margin-bottom: 60px !important;
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 38px;
+        text-align: center;
+        color: #FFFFFF !important;
+    }
+    .course-content p {
+        margin-bottom: 49px !important;
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .course-content button {
+        padding: 10px 15px;
+        margin-bottom: 0px;
+        background: linear-gradient(0deg, #FFF9FF, #FFF9FF);
+        box-shadow: 0px 2px 6px rgb(220 34 101 / 36%);
+        border-radius: 8px;
+        border: none;
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        color: #000000;
+    }
+    /* bootcamp css end  */
+    /* fee_pap css start  */
+    .pap-header {
+        width: 100%;
+        background-image: url('../img/fullstack-img.png') !important;
+        position: relative;
+        overflow: hidden;
+        align-items: center;
+        height: 100%;
+        background-size: 100% 100%;
+    }
+    .pap-concept{
+        margin-top: 400px !important;
+    }
+    .card-padding{
+        padding-bottom: 400px !important;
+    }
+    .pap-content h2 {
+        margin-bottom: 10px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 46px;
+        line-height: 56px;
+        color: #6D416D;
+    }
+    .pap-content h4 {
+        margin-bottom: 25px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 42px;
+        line-height: 52px;
+        text-align: center;
+        color: #000;
+    }
+    .pap-content p {
+        margin-bottom: 22px;
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 22px !important;
+        line-height: 32px !important;
+        text-align: center;
+        color: #000;
+    }
+    .what-section {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .what-section h2 {
+        margin-bottom: 18px;
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 34px;
+        line-height: 44px;
+        color: #FFFFFF !important;
+    }
+    .what-section p {
+        margin-bottom: 8px !important;
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 32px;
+        color: #FFFFFF !important;
+    }
+    .what-section .what-apply {
+        padding: 14px 30px;
+        margin-top: 38px;
+        border: none;
+        background: #FFF;
+        border-radius: 8px;
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        text-align: center;
+        color: #000;
+    }
+    .fee-step h3 {
+        margin-bottom: 20px;
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 34px;
+        line-height: 44px;
+        text-align: center;
+        color: #344767;
+    }
+    .fee-step p {
+        margin-bottom: 27px;
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 32px;
+        text-align: center;
+        color: #7B809A;
+    }
+    .agree-content h3 {
+        margin-top: 50px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 42px;
+        color: #FFFFFF;
+    }
+    .agree-step h5 {
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 34px;
+        color: #344767;
+    }
+    .agree-step p {
+        margin-top: 10px;
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        color: #7B809A;
+    }
+    /* fee_pap css end  */
+    /* fullstack css start  */
+    .main-content{
+        width: 56%;
+    }
+    .full-content h6 {
+        margin-bottom: 12px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 34px;
+        color: #000;
+    }
+    .full-content h2 {
+        margin-bottom: 15px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 42px;
+        color: #000;
+    }
+    .full-content p {
+        margin-bottom: 10px;
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400 !important;
+        font-size: 20px;
+        line-height: 30px;
+        color: #000;
+    }
+    .full-content button {
+        padding: 8px 20px;
+        margin-bottom: 150px;
+        background: linear-gradient(180deg, #876187 0%, #6D416D 100%);
+        box-shadow: 0px 2px 6px rgb(220 34 101 / 36%);
+        border-radius: 8px;
+        border: none;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 22px;
+        text-align: right;
+        color: #FFFFFF;
+    }
+    .full-nav a {
+        padding: 47px 0px !important;
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 15px !important;
+        line-height: 25px !important;
+        color: #FFF !important;
+    }
+    .header.sticky-element {
+        position: fixed;
+        width: 100%;
+        top: 85px;
+        z-index: 999;
+        animation: smoothScroll 1s forwards;
+        /* max-width: 92% !important; */
+
+    }
+    .stick-margin{
+        margin-left: -3% !important;
+    }
+    .over-top { 
+        margin-top: 180px !important;
+    }
+    .placement-bottom{
+        margin-bottom: 0px !important;
+    }
+    .fee-design {
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+    .fee-titles h2 {
+        padding-top: 180px;
+        margin-bottom: 13px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 36px;
+        text-align: center;
+        color: #344767;
+    }
+    .benifit-section h2 {
+        padding-top: 180px;
+        padding-bottom: 30px;
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px !important;
+        line-height: 36px;
+        text-align: center !important;
+        color: #344767 !important;
+    }
+    .mentor-section h2 {
+        padding-top: 180px;
+        margin-bottom: 92px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 40px;
+        color: #344767;
+    }
+    .curriculam-title {
+        padding-top: 180px;
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400;
+    }
+    /* fullstack css end  */
+
+    .footer-section {
+        padding-top: 50px !important;
+        padding-bottom: 50px !important;
+    }
+    .footer a {
+        margin-right: 40px !important;
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 18px !important;
+        line-height: 28px !important;
+        color: #000000 !important;
+        opacity: 0.7 !important;
+    }
+    .footer p {
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 300 !important;
+        font-size: 18px !important;
+        line-height: 28px !important;
+        color: #000000;
+    }
+     /* index page css end  */
+     /* about page css start  */
+     /* address section css start  */
+    .address-section h1{
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 58px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .bg-color{
+        background: linear-gradient(180deg, #92278F 0%, #D587E4 100%);
+        border-radius: 8px;
+      }
+      .address-section h5{
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        color: #344767 !important;
+      }
+      .address-section p{
+        padding: 0px !important;
+        margin-top: 13px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #7B809A;
+      }
+    /* address section css end  */
+     /* about page css end  */
+}
+@media (min-width: 992px) {
+    .device-width{
+        width: 60%;
+    }
+    .blockquote li{
+        padding: 10px 5px !important;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #344767;;
+    }
+   .instructor-img .link-position{
+        width: 60px !important;
+        left: -6px;
+        top: -25px;
+        border-radius: 0px !important;
+    }
+    .container{
+        max-width: 95% !important;
+    }
+    /* nav button view start css  */
+    .btn-bg{
+        background-color: #6D416D !important;
+    }
+    /* nav button view end css  */
+    /* index.php css start */
+    /* header navbar css start  */
+    .home .white-logo{
+        display: none;
+    }
+    .fee-section .white-logo{
+        display: none;
+    }
+    .bootcamp .white-logo{
+        display: none;
+    }
+    .about-us .white-logo{
+        display: none;
+    }
+    .nav-page a{
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px !important;
+        line-height: 30px;
+        color: #000 !important;
+    }
+    .nav-page img{
+        color: #000 !important;
+    }
+    .nav-title{
+        padding: 0rem 1rem !important;
+      }
+      .nav-page li a.nav-title::after{
+        content: '';
+        display: block;
+        width: 0px;
+        height: 1.5px;
+        background: #fff;
+        transition: width .3s
+      }
+      .nav-page li .underline {
+        height: 3px;
+        background-color: #92278f;
+        width: 0%;
+        transition: width 0.2s, background-color 0.5s;
+        margin: 0 auto;
+    }
+      .nav-page li:hover .underline{
+        background-color: #92278f;
+        width: 100%;
+    }
+      .nav-page li .underline.active {
+        height: 3px;
+        background-color: #92278f;
+        width: 84%;
+        transition: width 0.2s, background-color 0.5s;
+        margin: 0 auto;
+    }
+    .list-mar{
+        margin-right: 10px;
+    }
+    .apply-now{
+        padding: 6px !important;
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 18px !important;
+        line-height: 28px !important;
+        text-align: right !important;
+        color: #FFFFFF !important;
+        background: linear-gradient(0deg, #876187 0.08%, #6D416D 100.08%) !important;
+        box-shadow: 0px 2px 6px rgba(109, 65, 109, 0.25) !important;
+        border-radius: 8px !important;
+    }
+    .apply-now a{
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 20px !important;
+        line-height: 30px !important;
+        text-align: right !important;
+        color: #FFFFFF !important;
+    }
+    .all-courses{
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 20px !important;
+        line-height: 30px !important;
+        text-align: right !important;
+        color: #FFFFFF !important;
+        background: linear-gradient(0deg, #876187 0.08%, #6D416D 100.08%) !important;
+        box-shadow: 0px 2px 6px rgba(109, 65, 109, 0.25) !important;
+        border-radius: 8px !important;
+    }
+    .all-courses a{
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 22px !important;
+        line-height: 32px !important;
+        text-align: right !important;
+        color: #FFFFFF !important;
+    }
+    /* header navbar css end  */
+    /* main section css start  */
+    /* header carousel section  css start */
+    .carousel-mar{
+        padding-bottom: 0% !important;
+        background: #FFFFFF;
+        box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+        border-radius: 12px;
+    }
+    .section-karka{
+        /* margin-top: 130px !important; */
+        padding-bottom: 10px;
+    }
+    .section-karka h2{
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 600 !important;
+        font-size: 96px !important;
+        line-height: 106px !important;
+        color: #6D416D !important;
+    }
+    .academy-font h3{
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 600 !important;
+        font-size: 50px !important;
+        color: #000 !important;
+    }
+    .content-para{
+        margin-top: 93px;
+    }
+    .section-karka p{
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 24px !important;
+        line-height: 34px !important;
+        color: #344767 !important;
+    }
+    .section-karka .rs{
+        color: #ED4814;
+    }
+    .read-more{
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 22px;
+        color: #6D416D;
+    }
+    /* header carosual css end  */
+    /* why-karka section css start  */
+    .why-karka{
+        margin-top: 0px;
+        background: #542454 !important;
+        border-radius: 12px !important;
+    }
+    .why-karka h3{
+        margin-top: 52px;
+        margin-bottom: 65px;
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 36px !important;
+        line-height: 46px !important;
+        color: #FFFFFF !important;
+    }
+    .why-karka p{
+        margin-top: 40px;
+        margin-bottom: 36px;
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 24px !important;
+        line-height: 34px !important;
+        color: #FFFFFF !important;
+    }
+    /* why-karka section css end  */
+    /* blog section css start  */
+    .blog-section{
+        margin-top: 67px;
+        margin-bottom: 89px;
+    }
+    .blog-section h2{
+        margin-bottom: 33px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        text-align: center;
+        line-height: 46px;
+        color: #344767;
+    }
+    .blog-section p{
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 34px;
+        text-align: center;
+        color: #7B809A;
+    }
+    /* blog section css end  */
+    /* course-section css start  */
+    .course-section{
+        background-image: linear-gradient(195deg, #6D416D 0%, #6D416D 100%);
+        color: #FFF;
+    }
+    .course-section h3{
+        margin-top: 50px;
+        margin-bottom: 42px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 46px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .course-section p{
+        margin-bottom: 41px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 34px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    /* owl-carosual css start  */
+    .owl-item > div {
+        cursor: pointer;
+        margin: 6% 8%;
+        transition: margin 0.4s ease;
+    }
+    .owl-item.center > div {
+        cursor: auto;
+        margin: 0;
+    }
+    .owl-item:not(.center) > div:hover {
+        opacity: .75;
+    }
+    .owl-section{
+        background: #FFFFFF; 
+        box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+        border-radius: 12px;
+    }
+    .card-view{
+        padding: 30px;
+        background: #FFFFFF;
+        box-shadow: 0px 2px 6px rgba(151, 172, 198, 0.25);
+        border-radius: 10px;
+    }
+    .post-content h5{
+        margin-top: 13px;
+        margin-bottom: 7px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 22px;
+        color: #6D416D;
+    }
+    .post-content h4{
+        margin-bottom: 13px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: #6D416D;
+    }
+    .post-content p{
+        margin-bottom: 26px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        color: #7B809A;
+    }
+    .post-content a{
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #6D416D;
+    }
+    .all-course{
+        margin-top: 50px;
+    }
+    .all-course button{
+        background: linear-gradient(180deg, #755075 0%, #6D416D 100%);
+        box-shadow: 0px 4px 4px #6D416D;
+        border-radius: 9px;
+        
+    }
+    .all-course button{
+        padding: 15px 20px;
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 12px !important;
+        line-height: 22px !important;
+        color: #FFFFFF !important;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    /* course css end  */
+    /* master css start  */
+    .master-box h2{
+        margin-top: 119px;
+        margin-bottom: 111px;
+        text-align: center;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 46px;
+        color: #344767;
+    }
+    .master-box{
+        margin-bottom:169px;
+    }
+    .master-box img {
+        width: 50% !important;
+    }
+    /* master css end  */
+    /* instructor css start  */
+    .instructor{
+        background-color: #6D416D !important;
+        margin-bottom: 0px;
+    }
+    .instructor-title h3{
+        margin-top: 71px;
+        margin-bottom: 19px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 46px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .instructor-title p{
+        margin-bottom: 35px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 34px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .instructor h5{
+        margin-top: 18px;
+        margin-bottom: 12px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 30px;
+        color: #344767;
+    }
+    .instructor h6{
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 34px;
+        color: #6D416D !important;
+    }
+    .instructor-img img{
+        width: 90% !important;
+        padding-bottom: 10px;
+        margin-left: -12px;
+    }
+    .card-gap{
+        margin-right: 176px;
+    }
+    .company-tab h1 {
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 50px;
+        color: #344767;
+        text-transform: none;
+    }
+    /* instructor css end  */
+    /* enroll css start  */
+    .enroll-process{
+        margin-top: 128px;
+    }
+    .enroll-process h3{
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 46px;
+        color: #344767;
+        text-transform: none;
+        text-align: center;
+    }
+    /* enroll css end  */
+    /* review css start  */
+    .review-section{
+        /* padding-bottom: 200px; */
+        background-image: linear-gradient(195deg, #6D416D 0%, #040404 100%) !important;
+        color: #FFF;
+    }
+
+    .review-title h3{
+        margin-top: 67px;
+        margin-bottom: 39px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 46px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .review-title p{
+        margin-bottom: 0px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 38px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .card-review p{
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        color: #000000;
+    }
+    .more-review{
+        margin-top: 44px;
+        margin-bottom: 55px;
+    }
+    .more-review a{
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 34px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    /* review css end  */
+    /* main section css end  */
+    /* footer css start  */
+    .footer-section{
+        padding-top: 25px !important;
+        padding-bottom: 10px !important;
+    }
+    footer p{
+        margin: 25px 0px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 26px;
+        color: #000000;
+    }
+    footer a{
+        margin-right: 40px !important;
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 400 !important ;
+        font-size: 14px !important;
+        line-height: 24px !important;
+        color: #000000 !important;
+        opacity: 0.7 !important;
+    }
+    footer .get-in{
+        padding: 10px 15px;
+        background: linear-gradient(180deg, #876187 0%, #6D416D 100%) !important;
+        border-radius: 8px !important;
+        filter: drop-shadow(0px 2px 6px rgba(40, 129, 235, 0.36)) !important;
+        border : none; 
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 12px !important;
+        line-height: 22px !important;
+        text-align: center !important;
+        color: #FFFFFF !important;
+    }
+    /* footer css end  */
+    /* index.php css end  */
+    /* course page brochure css start */
+    .custom-btn {
+        width: 130px;
+        height: 40px;
+        color: #fff;
+        border-radius: 5px;
+        padding: 10px 25px;
+        font-family: 'Lato', sans-serif;
+        font-weight: 500;
+        background: transparent;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        position: relative;
+        display: inline-block;
+        box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+        7px 7px 20px 0px rgba(0,0,0,.1),
+        4px 4px 5px 0px rgba(0,0,0,.1);
+        outline: none;
+    }
+    .btn-12{
+      position: relative;
+      left: 20%;
+      bottom: 20px;
+      border:none;
+      box-shadow: none;
+      width: 130px;
+      height: 40px;
+      line-height: 42px;
+      -webkit-perspective: 230px;
+      perspective: 230px;
+    }
+    .btn-12 span {
+        background: linear-gradient(0deg, #876187 0.08%, #6D416D 100.08%) !important;
+        box-shadow: 0px 2px 6px rgb(109 65 109 / 25%) !important;
+        display: block;
+        position: absolute;
+        width: 220px;
+        height: 40px;
+        box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+        7px 7px 20px 0px rgba(0,0,0,.1),
+        4px 4px 5px 0px rgba(0,0,0,.1);
+        border-radius: 5px;
+        margin:0;
+        text-align: center;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        -webkit-transition: all .3s;
+        transition: all .3s;
+        font-family: 'Lexend';
+        font-weight: 500;
+    }
+    .btn-12 span:nth-child(1) {
+        box-shadow:
+        -7px -7px 20px 0px #fff9,
+        -4px -4px 5px 0px #fff9,
+        7px 7px 20px 0px #0002,
+        4px 4px 5px 0px #0001;
+        -webkit-transform: rotateX(90deg);
+        -moz-transform: rotateX(90deg);
+        transform: rotateX(90deg);
+        -webkit-transform-origin: 50% 50% -20px;
+        -moz-transform-origin: 50% 50% -20px;
+        transform-origin: 50% 50% -20px;
+    }
+    .btn-12 span:nth-child(2) {
+      -webkit-transform: rotateX(0deg);
+      -moz-transform: rotateX(0deg);
+      transform: rotateX(0deg);
+      -webkit-transform-origin: 50% 50% -20px;
+      -moz-transform-origin: 50% 50% -20px;
+      transform-origin: 50% 50% -20px;
+    }
+    .btn-12:hover span:nth-child(1) {
+      box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+       7px 7px 20px 0px rgba(0,0,0,.1),
+       4px 4px 5px 0px rgba(0,0,0,.1);
+      -webkit-transform: rotateX(0deg);
+      -moz-transform: rotateX(0deg);
+      transform: rotateX(0deg);
+    }
+    .btn-12:hover span:nth-child(2) {
+      box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+       7px 7px 20px 0px rgba(0,0,0,.1),
+       4px 4px 5px 0px rgba(0,0,0,.1);
+      color: transparent;
+      -webkit-transform: rotateX(-90deg);
+      -moz-transform: rotateX(-90deg);
+      transform: rotateX(-90deg);
+    }
+     /* course page brochure css end */
+    /* fee_app.php css start */
+    /* header navbar css start  */
+    .fee-section .nav-page a{
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px !important;
+        line-height: 30px;
+        color: #000 !important;
+    }
+    .fee-section .nav-page img{
+        color: #000 !important;
+    }
+    .pap-header{
+        width: 100%;
+        background-image: url('../img/fullstack-img.png') !important;
+        padding: 0;
+        position: relative;
+        overflow: hidden;
+        align-items: center;
+        height: 100%;
+        background-size: 100% 100%;
+    }
+    .back-img{
+        padding-bottom: 160px;
+    }
+    .what-section{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .pap-concept{
+        margin-top: 0px !important;
+    }
+    .pap-content h2{
+        margin-bottom: 16px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 58px;
+        color: #6D416D;
+    }
+    .pap-content h4{
+        margin-bottom: 35px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 58px;
+        text-align: center;
+        color: #000;
+    }
+    .pap-content p{
+        margin-bottom: 32px;
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 24px !important;
+        line-height: 34px !important;
+        text-align: center;
+        color: #000;
+    }
+    .what-pap{
+        background-image: linear-gradient(195deg, #6D416D 0%, #6D416D 100%);
+        color: #FFF;
+    }
+    .what-section h2{
+        margin-bottom: 28px;
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 46px;
+        color: #FFFFFF;
+    }
+    .what-section p {
+        margin-bottom: 68px;
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 34px;
+        color: #FFFFFF;
+    }
+    .what-section .what-apply{
+        padding: 14px 35px;
+        margin-top: 68px;
+        border: none;
+        background: #FFF;
+        border-radius: 8px;
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        text-align: center;
+        color: #000;
+    }
+    /* header css end  */
+    /* section css start  */
+    .fee-section{
+        margin-top: 0px;
+        padding-top: 65px;
+    }
+    .fee-step h3{
+        margin-bottom: 30px;
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 36px;
+        text-align: center;
+        color: #344767;
+    }
+    .fee-step p{
+        margin-bottom: 37px;
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 34px;
+        text-align: center;
+        color: #7B809A;
+    }
+    .card-background{
+        box-shadow: none !important;
+    }
+    .card-background::after{
+        width: 0% !important;
+    }
+    .full-background {
+        padding: 237px 0px;
+        background: transparent;
+        mix-blend-mode: multiply;
+        border-radius: 12px !important;
+    }
+    .agree-content h3{
+        margin-top: 0px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 46px;
+        color: #FFFFFF;
+    }
+    .agree-bottom{
+        margin-bottom: 25px;
+    }
+    .process-top{
+        margin-top: 31px !important;
+    }
+    .process-bottom{
+        margin-top: 119px !important;
+    }
+    /* .agree-step h5{
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 32px;
+        color: #344767;
+    } */
+    .agree-step{
+        padding-right: 60px;
+        padding-left: 20px;
+    }
+    /* .agree-step p{
+        margin-top: 15px;
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #7B809A;
+    } */
+    /* section css end  */
+    /* fee-app css end */
+
+    /* bootcamp css start  */
+    .bootcamp-title{
+        padding-top: 85px;
+        background: #6D416D !important;
+        opacity: 0.8 !important;
+    }
+    .bootcamp-title h2{
+        padding-top: 168px;
+        padding-bottom: 218px;
+        text-align: center;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 58px;
+        color: #FFF;
+    }
+    /* bootcamp content css start  */
+    .bootcamp-karka{
+        background: #FFF !important;
+        border-radius: 12px !important;
+    }
+    .bootcamp-karka{
+        padding: 53px 61px;
+        margin-bottom: 103px !important;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        color: #100F0F;
+    }
+    /* bootcamp content css end  */
+    /* .bootcamp-course css start  */
+    .boot-background{
+        background-position: 35% !important;
+        background-color: none !important;
+    }
+    .course-content h3{
+        margin-top: 68px;
+        margin-bottom: 90px !important;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 40px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .course-content p{
+        margin-bottom: 59px !important;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .course-content button{
+        padding: 13px 22px;
+        margin-bottom: 69px;
+        background: linear-gradient(0deg, #FFF9FF, #FFF9FF);
+        box-shadow: 0px 2px 6px rgba(220, 34, 101, 0.36);
+        border-radius: 8px;
+        border: none;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: #000000;
+    }
+    .bootcamp-top-1{
+        margin-bottom: 196px;
+    }
+    .bootcamp-details {
+        margin-top: 0px;
+    }
+    .bootcamp-content h2{
+        margin-bottom: 6px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 50px;
+        color: #344767;
+    }
+    .bootcamp-content p {
+        margin-bottom: 21px;
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #7B809A;
+    }
+    .bootcamp-content h5{
+        margin-bottom: 38px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 38px;
+        color: #344767;
+    }
+    .bootcamp-step h5{
+        margin-bottom: 30px !important;
+        font-family: 'Lexend'!important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 24px !important;
+        line-height: 34px !important;
+        color: #344767 !important;
+    }
+    .course-content{
+        margin-bottom: 0px;
+    }
+    /* bootcamp-course css end  */
+    /* bootcamp css end  */
+    /* fullstack css start   */
+    /* header css start  */
+    .full-content{
+        margin-top: 110px;
+    }
+    .full-content h6{
+        margin-bottom: 14px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 34px;
+        color: #000;
+    }
+    .full-content h2{
+        margin-bottom: 18px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 38px;
+        line-height: 48px;
+        color: #000;
+    }
+    .full-content p{
+        margin-bottom: 10px;
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: #000;
+    }
+    .full-content button{
+        padding: 8px 16px;
+        margin-bottom: 200px;
+        background: linear-gradient(180deg, #876187 0%, #6D416D 100%);
+        box-shadow: 0px 2px 6px rgba(220, 34, 101, 0.36);
+        border-radius: 8px;
+        border: none;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 22px;
+        text-align: right;
+        color: #FFFFFF;
+    }
+    .fullstack{
+        background: #876187;
+        box-shadow: 0px 2px 6px rgba(151, 172, 198, 0.25);
+        border-radius: 10px;
+    }
+    .fullstack-nav{
+        box-shadow: none !important;
+        background: #876187 !important;
+    }
+    .full-nav a{
+        padding: 47px 0px !important;
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 20px !important;
+        line-height: 30px !important;
+        color: #FFF !important;
+    }
+    .admission-top h3{
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 34px !important;
+        line-height: 44px !important;
+        color: #FFF !important;
+    }
+    .admission-top p{
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 20px !important;
+        line-height: 30px !important;
+        color: #FFF !important;
+    }
+    .admission-top h4{
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 18px !important;
+        line-height: 28px !important;
+    }
+    .admission-top img{
+        padding: 20px;
+    }
+    /* header css end  */
+    /* overview css start  */
+
+    /* navbar fixed css start */
+    .header.sticky-element{
+        position: fixed;
+        width:100%;
+        top: 83px;
+        z-index: 999;
+        animation: smoothScroll 1s forwards;
+        max-width: 92% !important;
+
+    }
+    .sticky-element .full-nav a{
+        padding: 20px 0px !important;
+    }
+    @keyframes smoothScroll {
+        0% {
+            transform: translateY(-40px);
+        }
+        100% {
+            transform: translateY(0px);
+        }
+    }
+
+    @keyframes reverseScroll {
+        0% {
+        transform: translateY(0px);
+        }
+        100% {
+            transform: translateY(-2px);
+        }
+    }
+    /* navbar fixed css end  */
+    .overview-top{
+        margin-top:37px;
+        margin-bottom: 113px;
+        background: #FFFFFF;
+        box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+        border-radius: 12px;
+    }
+    .over-top{
+        margin-top: 190px !important;
+    }
+    .overview-title h3{
+        margin-bottom: 29px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 34px;
+        line-height: 44px;
+        text-align: center;
+        color: #344767;
+    }
+    .overview-title p{
+        margin-bottom: 37px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #7B809A;
+    }
+    .overview-row h5{
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: #344767;
+    }
+    .overview-row p{
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #7B809A;
+    }
+    .overview-row ul{
+        padding-left: 15px;
+    }
+    .overview-row ul li{
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #7B809A;
+    }
+    .overview-apply h2{
+        margin-bottom: 19px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 42px;
+        text-align: center;
+        color: #344767;
+    }
+    .overview-apply p{
+        margin-bottom: 24px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 34px;
+        text-align: center;
+        color: #7B809A;
+    }
+    .overview-apply ul li{
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #344767;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    /* overview css end  */
+    /* placement css start  */
+    .placement-top{
+        margin-top: 0px;
+        padding-top: 125px !important;
+    }
+    .place-top{
+        margin-top: 0px !important;
+    }
+    .card-color{
+        background: linear-gradient(180deg, #876187 0%, #6D416D 100%);
+        box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+        border-radius: 0px;
+    }
+    .placement-title h4{
+        margin-bottom: 96px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 34px;
+        line-height:44px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .placement-subcontent h5{
+        margin-top: 16px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        color: #FFFFFF;
+    }
+    .placement-subcontent p{
+        margin-bottom: 40px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 23px;
+        color: #FFFFFF;
+    }
+    .placement-card h5{
+        margin-top: 15px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        color: #344767;
+    }
+    .placement-card p{
+        margin-top: 10px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 23px;
+        color: #7B809A;
+    }
+    .placement-card a {
+        margin-top: 25px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #E91F63;
+        
+    }
+    /* placement css end  */
+    /* placement company css start  */
+    .placement-bottom{
+        margin-bottom: 0px !important;
+    }
+    .company-logo h3{
+        margin-top: 91px;
+        margin-bottom: 56px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 34px;
+        line-height: 44px;
+        text-align: center;
+        color: #344767;
+    }
+    /* palcement company css end  */
+    /* fee css start  */
+    .fee-design{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .fee-titles h2{
+        padding-top: 180px;
+        margin-bottom: 13px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 34px;
+        line-height: 44px;
+        text-align: center;
+        color: #344767;
+    }
+    .fee-titles p{
+        margin-bottom: 65px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        color: #7B809A;
+    }
+    .fee-background{
+        background-position: 15% !important;
+        padding: 210px 0px !important;
+    }
+    .fee-title p{
+        margin-bottom: 17px !important;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .fee-title h3{
+        margin-bottom: 14px !important;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 40px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .fee-steps h5{
+        margin-bottom: 9px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: #344767;
+    }
+    .fee-steps p {
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #7B809A;
+    }
+    /* fee css end  */
+    /* benifit css start  */
+    .benifit-section {
+        margin-top: 0px !important;
+        margin-bottom: 177px !important;
+    }
+    .benifit-section h2{
+        padding-top: 200px;
+        padding-bottom: 30px;
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 34px !important;
+        line-height: 44px;
+        text-align: center !important;
+        color: #344767 !important;
+    }
+    .benefit-section table thead tr th{
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 10px !important;
+        line-height: 20px !important;
+        color: #7B809A !important;
+    }
+    .table-back{
+        background: #FFFFFF;
+        box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+        border-radius: 12px;
+    }
+    tbody tr td  h6{
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 12px !important;
+        line-height: 22px !important;
+        color: #344767 !important;
+    }
+    tbody tr td p{
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 12px !important;
+        line-height: 22px !important;
+        color: #7B809A !important;
+    }
+    tbody tr td span{
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 12px !important;
+        line-height: 22px !important;
+        color: #7B809A !important;
+    }
+    /* benifit css end  */
+    /* admission css start  */
+    .bg-admission{
+        background-image: linear-gradient(195deg, #6D416D 0%, #6D416D 100%);
+        color: #FFF;
+    }
+    .admission-apply-now{
+        padding: 8px 16px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 22px;
+        text-align: right;
+        color: #FFFFFF;
+        background: linear-gradient(180deg, #876187 0%, #6D416D 100%);
+        box-shadow: 0px 2px 6px rgba(220, 34, 101, 0.36);
+        border-radius: 8px;
+        border: none;
+    }
+    .admissioon-top h3{
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 600 !important  ;
+        font-size: 30px !important ;
+        line-height: 40px !important;
+        text-align: center !important;
+        color: #FFFFFF!important;
+    }
+    .admissioon-top p{
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 16px !important;
+        line-height: 26px !important;
+        text-align: center !important;
+        color: #FFFFFF !important;
+    }
+    .admissioon-top h4{
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 24px !important;
+        line-height: 34px !important;  
+        color: #7B809A !important;
+    }
+    /* admission css end  */
+    /* mentor css start  */
+    .mentor-section{
+        margin-top: 0px;
+    }
+    .mentor-section h2{
+        padding-top: 190px;
+        margin-bottom: 50px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 34px;
+        line-height: 44px;
+        color: #344767;
+    }
+    .mentor-section h4{
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 36px;
+        color: #344767 !important;
+    }
+    .mentor-section p{
+        margin-top: 16px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 34px;
+        color: #6D416D !important;;
+    }
+    /* mentor css end  */
+    /* curriculam css start  */
+    .curriculam-section {
+        margin-top: 0px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .curriculam-title{
+        padding-top: 190px;
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 34px;
+        line-height: 44px;
+    }
+    .curriculam-title h3{
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .bg-curriculam{
+        background: linear-gradient(180deg, #876187 0%, #6D416D 100%);
+        border-radius: 12px;
+    }
+    .curriculam-card{
+        padding: 80px 25px 0px 25px !important;
+    }
+    .curriculam-card h5{
+        margin-top: 50px !important;
+    }
+    .h3{
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 40px;
+        color: #344767;
+    }
+    .curriculam-top{
+        margin-top: 90px;
+    }
+    .curriculam-top h5{
+        margin-bottom:25px !important;
+        font-family: 'Lexend' !important;
+        font-style: normal !important;
+        font-weight: 400;
+        font-size: 24px !important;
+        line-height: 34px; 
+    }
+    .curriculam-top h4{
+        margin-bottom: 20px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .curriculam-top p{
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        opacity: 0.5;
+    }
+    .curriculam-top button{
+        margin-top: 55px;
+        padding: 8px 16px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 22px;
+        text-align: right;
+        color: #000000;
+    }
+    /* curriculam css end  */
+    /* fqa css start  */
+    .faq-section{
+        margin-top: 190px;
+    }
+    .faq-start{
+        margin-top: 110px;
+    }
+    .bg-faq{
+        background: linear-gradient(180deg, #876187 0%, #6D416D 100%) !important;
+        box-shadow: 0px 2px 6px rgba(40, 129, 235, 0.36) !important;
+        border-radius: 8px !important;
+    }
+    .bg-faq h6{
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height:26px;
+        color: #344767;
+    }
+    .bg-faq p{
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #7B809A;
+    }
+    /* fqa css end  */
+    /* about_us css start  */
+    .about-title h2{
+        margin-top: 102px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 46px;
+        line-height: 56px;
+        color: #92278F;
+    }
+    .about-title p {
+        margin-top: 81px;
+        margin-bottom: 250px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 36px;
+        color: #FFFDFD;
+        
+    }
+    .about-card{
+        background: #FFFFFF !important;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 6px rgba(151, 172, 198, 0.25) !important;
+        border-radius: 12px !important;
+    }
+    .bg-about{
+        background: linear-gradient(180deg, #876187 99.99%, #DA1F63 100%);
+        box-shadow: 0px 2px 6px rgba(220, 34, 101, 0.36);
+        border-radius: 8px;
+    }
+    .about-us h5{
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 46px;
+        color: #F9FBFF;
+    }
+    .about-us .sub-para{
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 36px;
+        color: #000000 !important;
+    }
+    .about-us p{
+        padding: 50px 30px 30px 30px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 32px;
+        color: #000000;
+    }
+    .about-founder{
+        margin-top: 75px;
+    }
+    .about-founder h3{
+        margin-top: 10px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 42px;
+        color: #344767;
+    }
+    .about-founder p{
+        font-family: 'Lexend' !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 36px;
+        color: #000000;
+    }
+    /* address section css start  */
+    .address-section h1{
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 58px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .bg-color{
+        background: linear-gradient(180deg, #92278F 0%, #D587E4 100%);
+        border-radius: 8px;
+      }
+      .address-section h5{
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        color: #344767 !important;
+      }
+      .address-section p{
+        padding: 0px !important;
+        margin-top: 13px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #7B809A;
+      }
+    /* address section css end  */
+    /* about_us end  */
+    /* fullstack css end  */
+
+    /* mobile view css  */
+    .navbar-collapse.show {
+        background: #876187 !important;
+    }
+    .px-104 {
+        padding-left: 6.2rem!important;
+        padding-right: 6.2rem!important;
+        padding-bottom: 25px !important;
+    }
+
+    /* ourmission position use css start */
+    .our-mission span{
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 40px;
+        color: #92278F;
+    }
+    .mission-1{
+        top: 36% !important;
+        left: 55.8% !important;
+        width: 2.5% !important;
+    }
+    .mission-2{
+        top: 66% !important;
+        left: 55.8% !important;
+        width: 2.5% !important;
+    }
+    .mission-3{
+        top: 80% !important;
+        left: 48.8% !important;
+        width: 2.5% !important;
+    }
+    .mission-4{
+        top: 36% !important;
+        left: 41.5% !important;
+        width: 2.5% !important;
+    }
+    .mission-5{
+        top: 66% !important;
+        left: 41.5% !important;
+        width: 2.5% !important;
+    }
+    .text-mission-1{
+        top: 30% !important;
+        left: 62% !important;
+    }
+    .text-mission-2{
+        top: 66% !important;
+        left: 62% !important;
+    }
+    .text-mission-3{
+        top: 97% !important;
+        left: 45% !important;
+    }
+    .text-mission-4{
+        top: 32% !important;
+        left: 21% !important;
+    }
+    .text-mission-5{
+        top: 60% !important;
+        left:21% !important;
+    }
+    .mission-section h1{
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 50px;
+        color: #000000;
+    }
+    .mission-section h1 span{
+        font-size: 50px;
+        line-height: 60px;
+        color: #6D416D;
+    }
+/* ourmission position use css end */
+
+
+}
+
+
+/* mobile view css end  */
+
+
+
+
+.our-team {
+    padding: 1.2rem 0.75rem;
+    background: #fff;
+    border-radius: 1rem;
+    text-align: center;
+    border: 0.5px solid #60c5a8;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 10px 0px,
+      rgba(0, 0, 0, 0.5) 0px 2px 25px 0px;
+  }
+  .our-team .pic {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    padding: 0.75rem;
+    margin-bottom: 1.5rem;
+    transition: all 0.5s ease 0s;
+  }
+  .our-team:hover .pic {
+    background: #6D416D;
+    border-radius: 50%;
+  }
+  .pic img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+  .our-team .title {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #60c5a8;
+    margin: 0 0 7px 0;
+  }
+  .our-team .post {
+    display: block;
+    font-size: 1rem;
+    color: #60c5a8;
+    margin-bottom: 1rem;
+  }
+  .our-team .social {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  .our-team .social li {
+    display: inline-block;
+    margin-right: 5px;
+  }
+  .our-team .social li a {
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    line-height: 2rem;
+    border-radius: 50%;
+    font-size: 1rem;
+    color: #60c5a8;
+    border: 1px solid #60c5a8;
+    transition: all 0.5s ease 0s;
+  }
+  .our-team:hover .social li a {
+    background: #60c5a8;
+    color: #fff;
+  }
+  
+  .social li a:hover {
+    background-color: #025784 !important;
+    border: none;
+    text-decoration: none;
+  }
+
+
+
+  /* popo css  */
+/* .modal-body {  */
+/* .modal-body h2{
+    font-size: 30px !important;
+    line-height: 40px;
+    font-family: 'lexend' !important;
+    font-weight:400 !important; 
+    text-transform:uppercase;
+}
+.modal-body h3,p,button{
+    font-family: 'lexend' !important;
+    font-weight:400 !important; 
+    text-transform:uppercase;
+} */
+.popup-btn{
+    padding-left: 45% !important;
+}
+.popup-btn button{
+    background: none !important;
+}
+.btn-model{
+    background: #FFF !important;
+    border: none !important;
+    font-size: 30px;
+}
+.apply-btn{
+    background: #FFFF00 !important;
+    color: #000 !important;
+}
+.pre-order-btn { 
+    color:#000;
+    padding:1em;
+    display: block;
+    margin: 2em auto;
+    width:50%;
+    font-family: 'Lexend' !important;
+    font-weight:700;
+    background: #FFF;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 8px !important;
+    text-decoration: none;
+}
+.pre-order-btn:hover { 
+    background-color: #a4508b !important;
+    background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%) !important;
+    text-decoration:none;
+    color:#FFF;
+}   
+      
+    /* } */
+
+
+.containers {
+    position: relative;
+    width: 100%;
+    background-color: #a4508b !important;
+    background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%) !important;
+
+}
+.content-bg{
+    background-color: #a4508b !important;
+    background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%) !important;
+}
+/* .content-bg h2,h3,p{
+    color: #FFF;
+} */
+.popper {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: yellow !important;
+    clip-path: polygon(50% 0%, 63% 38%, 100% 38%, 69% 59%, 82% 100%, 50% 75%, 18% 100%, 31% 59%, 0% 38%, 37% 38%);
+    /* background: linear-gradient(0deg, #876187 0.08%, #6D416D 100.08%) !important; */
+    border-radius: 100%;
+    transform: translateY(-100%);
+    animation: shower 1s infinite;
+    overflow: hidden;
+}
+    
+    @keyframes shower {
+    0% {
+        transform: translateY(-100%) rotate(0deg);
+    }
+    100% {
+        transform: translateY(70vh) rotate(360deg);
+    }
+}
+    

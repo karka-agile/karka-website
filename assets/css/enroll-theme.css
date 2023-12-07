@@ -1,0 +1,116 @@
+    /* scroll timeline */
+  .timeline {
+    padding-top: 0px !important;
+    padding-bottom: 110px;
+  }
+  .timeline ul {
+    padding: 70px 0px 0px 0px;
+  }
+  .timeline .default-line {
+    content: "";
+    position: absolute;
+    left: 50%;
+    width: 4px;
+    background: #bdc3c7;
+  }
+  .timeline .draw-line {
+    width: 4px;
+    height: 0;
+    position: absolute;
+    left: 50%;
+    background: #3ebdcc;
+  }
+  .timeline ul li {
+    list-style-type: none;
+    position: relative;
+    padding: 5px 0px;
+    margin: 0 auto;
+    /* height: 375px; */
+    background: transparent;
+  }
+  .timeline ul li.in-view {
+    transition: 0.5s ease-in-out, background-color 0.2s ease-out,
+    color 0.1s ease-out, border 0.1s ease-out;
+    margin: 140px 0px !important;
+  }
+  .timeline ul li.in-view::before {
+    content: attr(data-before);
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    width: 59px;
+    height: 59px;
+    border-radius: 50%;
+    background-image: url("https://sg0duxoli5-flywheel.netdna-ssl.com/wp-content/themes/inspired_elearning_theme/images/check-dark.svg");
+    background-color: #3ebdcc;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 0.125s ease-in-out, background-color 0.2s ease-out,
+      color 0.1s ease-out, border 0.1s ease-out;
+    text-align: center;
+    color: white;
+    padding: 6px 22px;
+    font-size: 30px;
+  }
+  
+  .timeline ul li::before {
+    content: attr(data-before);
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    width: 59px;
+    height: 59px;
+    border-radius: 50%;
+    background: inherit;
+    background: #bdc3c7;
+    transition: all 0.4s ease-in-out;
+  }
+  
+  .timeline_image-1 img {
+    margin-right: 50px;
+  }
+  .timeline_image-2 img {
+    margin-left: 50px;
+  }
+  .timeline_condent h2 {
+    font-family: 'Roboto' !important;
+    text-align: left !important;
+    font-size: 38px !important;
+    letter-spacing: 0px !important;
+    color: #6D416D !important;
+    opacity: 1;
+    padding-left: 30px;
+    margin-bottom: 20px;
+  }
+  .timeline_condent p {
+    letter-spacing: var(--unnamed-character-spacing-0);
+    text-align: left !important;
+    font-family: 'Roboto' !important;
+    font-size: 22px !important;
+    line-height: 32px !important;
+    letter-spacing: 0px !important;
+    background-color: #FFF !important;
+    color: #aaaaaa !important;
+    opacity: 1;
+    margin: 0px;
+    padding-left: 30px;
+  }
+  
+  .timeline ul li.timeline_button {
+    list-style-type: none;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    height: 0 !important;
+    background: transparent;
+  }
+  
+  .timeline li.row.hidden {
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+  }
+  
+
