@@ -27,7 +27,79 @@
 <body>
     <!-- header section start -->
     <header class='bootcamp'>
-        <?php include 'include/header.php' ?>
+        <!-- <?php include 'include/header.php' ?> -->
+        <!-- navbar section start -->
+<nav class="navbar navbar-expand-lg z-index-3 w-100 shadow-none navbar-transparent p-0 position-fixed bg-white">
+    <div class="container container-98 p-0">
+      <a class="text-dark w-15" href="index.html" rel="tooltip" title="Karka Academy" data-placement="bottom">
+        <img src='assets/img/karka-logos.png' alt='' class='black-logo'>
+        <img src='assets/img/karka-white.png' class='white-logo'/>
+      </a>
+      <a class="google-review ms-auto d-lg-block d-none" target='_blank' href="https://www.google.com/search?q=karka+software+academy&oq=karka+&aqs=chrome.0.35i39i355j46i39i175i199j69i57j69i60l5.3688j0j9&sourceid=chrome&ie=UTF-8#lrd=0x3b04f15dde0aa367:0xd5eb331016b805d0,1,,,," rel="tooltip" title="Karka Academy Reviews" data-placement="bottom">
+        <img src='assets/img/Google-reviews.jpg' alt='' class='w-75 rounded p-2 review-img'>
+      </a>
+      <a href="https://karka.academy/apply/" class="btn btn-sm apply-now mb-0 ms-auto d-lg-none d-block" target='_blank'>Apply Now</a>
+      <button class="navbar-toggler shadow-none ms-2 collapsed btn-bg" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon">
+          <span class="navbar-toggler-bar bar1 text-dark"></span>
+          <span class="navbar-toggler-bar bar2 text-dark"></span>
+          <span class="navbar-toggler-bar bar3 text-dark"></span>
+        </span>
+      </button>
+      <div class="navbar-collapse w-100 pt-3 pb-2 py-lg-0 collapse" id="navigation" style="">
+        <ul class="navbar-nav navbar-nav-hover ms-auto nav-page" id='nav-ative-link'>
+          <li class='nav-item dropdown list-mar mb-2'>
+            <a href="index.html" class="nav-link nav-title ps-0 d-flex cursor-pointer align-items-center">
+              <img src='assets/img/home-fav-icon.svg' class="me-2"/>
+                Home
+            </a>
+            <div class="underline <?= ($activePage == 'index') ? 'active':''; ?>"></div>
+          </li>
+          <li class='nav-item dropdown list-mar mb-2'>
+            <a href="courses.html" class="nav-link nav-title ps-0 d-flex cursor-pointer align-items-center">
+              <img src='assets/img/course-fav-icon.svg' class="me-2"/>
+                Courses
+            </a>
+            <div class="underline <?= ($activePage == 'courses') ? 'active':''; ?>"></div>
+          </li>
+          <li class='nav-item dropdown list-mar mb-2'>
+            <a href="fees_pap.html" class="nav-link nav-title ps-0 d-flex cursor-pointer align-items-center">
+              <img src='assets/img/fee-fav-icon.svg' class="me-2"/>
+                Fees
+            </a>
+            <div class="underline <?= ($activePage == 'fees_pap') ? 'active':''; ?>"></div>
+          </li>
+          <li class='nav-item dropdown list-mar mb-2'>
+            <a href="fullstack.html" class="nav-link nav-title ps-0 d-flex cursor-pointer align-items-center">
+              <img src='assets/img/fullstack-fav-icon.svg' class="me-2"/>
+                Fullstack
+            </a>
+            <div class="underline <?= ($activePage == 'fullstack') ? 'active':''; ?>"></div>
+          </li>
+          <li class='nav-item dropdown list-mar mb-2'>
+            <a href="placement.html" class="nav-link nav-title ps-0 d-flex cursor-pointer align-items-center">
+              <img src='assets/img/placement-fav-icon.svg' class="me-2"/>
+                Placement
+            </a>
+            <div class="underline <?= ($activePage == 'placement') ? 'active':''; ?>"></div>
+          </li>
+          <li class='nav-item dropdown list-mar mb-2'>
+            <a href="about.html" class="nav-link nav-title ps-0 d-flex cursor-pointer align-items-center">
+              <img src='assets/img/contact-fav-icon.svg' class="me-2"/>
+                About Us
+            </a>
+            <div class="underline <?= ($activePage == 'about') ? 'active':''; ?>"></div>
+          </li>
+        </ul>
+        <ul class="navbar-nav d-lg-block d-none">
+          <li class="nav-item">
+            <a href="./apply/" class="btn btn-sm  apply-now mb-0 me-1 p-2" target='_blank'>Apply Now</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<!-- navbar section end  -->
         <!-- You need to insert the Div-Tag with the ID "progressbar" -->
         <div id="progressbar"></div>
         <div class='bootcamp-title'>
@@ -52,14 +124,14 @@
                         <div class='col-lg-11 agree-step p-0'>
                             <h2>FULL STACK WEB DEVELOPMENT BOOTCAMP</h2>
                             <p>Learn to code from scratch and build a web application yourself</p>
-                            <h5>4 Month | Full time | No upfront fee</h5>
+                            <h5>3 Months | Full time | Pay after placement</h5>
                         </div>
                         <div class='row bootcamp-bottom m-0'>
                             <div class='col-lg-1 col-md-1 col-sm-1 col-1 p-0'>
                                 <img src='./assets/img/business-time.png' />
                             </div>
                             <div class='col-lg-11 col-md-11 col-sm-11 col-11 bootcamp-step'>
-                                <h5>Next batch starts on mid <span class='month'></span> 2023</h5>
+                                <h5>New batch starts every week</h5>
                             </div>
                         </div>
                         <div class='row bootcamp-bottom m-0'>
@@ -70,9 +142,9 @@
                                 <h5>Assured job  with high-paying salary</h5>
                             </div>
                         </div>
-                        <div class='mx-auto w-50 m-lg-5 m-md-4 m-sm-3  m-4'>
+                        <!-- <div class='mx-auto w-50 m-lg-5 m-md-4 m-sm-3  m-4'>
                             <button class="custom-btn btn-12" onclick="window.open('./assets/pdf/BROCHURE_KARKA.pdf')"><span>CLICK</span><span>BROCHURE DOWNLOAD</span></button>
-                        </div>
+                        </div> -->
                     </div>
                     <div class="col-lg-6 col-md-12">
                         <div class="cursor-pointer">
@@ -81,7 +153,7 @@
                             <div class="card-body text-center course-content">
                                 <h3 class="text-white mb-0">Become a Fullstack Web Developer</h3>
                                 <p>Our Full Stack Web Developer course will help you become a well-rounded web developer, able to build complex web applications from start to finish.So what are you waiting for? Get started today and become a Full stack Web Developer !</p>
-                                <a href='./fullstack.php'><button>Know more</button></a>
+                                <a href='./fullstack.html'><button>Know more</button></a>
                             </div>
                         </div>
                         </div>
@@ -106,14 +178,14 @@
                         <div class='col-lg-11 agree-step order-1 p-0'>
                             <h2>MOBILE APP DEVELOPMENT BOOTCAMP</h2>
                             <p>Learn to code from scratch and build a web application yourself</p>
-                            <h5>4 Month | Full time | No upfront fee</h5>
+                            <h5>3 Months | Full time | Pay after placement</h5>
                         </div>
                         <div class='row bootcamp-bottom m-0'>
                             <div class='col-lg-1 col-md-1 col-sm-1 col-1 p-0'>
                                 <img src='./assets/img/business-time.png' />
                             </div>
                             <div class='col-lg-11 col-md-11 col-sm-11 col-11 bootcamp-step'>
-                                <h5>Next batch starts on mid <span class='month'></span> 2023</h5>
+                                <h5>New batch starts every week</h5>
                             </div>
                         </div>
                         <div class='row bootcamp-bottom m-0'>
@@ -133,14 +205,14 @@
                         <div class='col-lg-11 agree-step p-0'>
                             <h2>FRONTEND WEB DEVELOPMENT BOOTCAMP</h2>
                             <p>Learn to code from scratch and build a web application yourself</p>
-                            <h5>3 Month | Full time | No upfront fee</h5>
+                            <h5>3 Months | Full time | Pay after placement</h5>
                         </div>
                         <div class='row bootcamp-bottom m-0'>
                             <div class='col-lg-1 col-md-1 col-sm-1 col-1 p-0'>
                                 <img src='./assets/img/business-time.png' />
                             </div>
                             <div class='col-lg-11 col-md-11 col-sm-11 col-11 bootcamp-step'>
-                                <h5>Next batch starts on mid <span class='month'></span> 2023</h5>
+                                <h5>New batch starts every week</h5>
                             </div>
                         </div>
                         <div class='row bootcamp-bottom m-0'>
@@ -184,14 +256,14 @@
                         <div class='col-lg-11 agree-step order-1 p-0'>
                             <h2>UI/UX DEVELOPMENT BOOTCAMP</h2>
                             <p>Learn to code from scratch and build a web application yourself</p>
-                            <h5>4 Month | Full time | No upfront fee</h5>
+                            <h5>3 Months | Full time | Pay after placement</h5>
                         </div>
                         <div class='row bootcamp-bottom m-0 '>
                             <div class='col-lg-1 col-md-1 col-sm-1 col-1 p-0'>
                                 <img src='./assets/img/business-time.png' />
                             </div>
                             <div class='col-lg-11 col-md-11 col-sm-11 col-11 bootcamp-step'>
-                                <h5>Next batch starts on mid  <span class='month'></span> 2023</h5>
+                                <h5>New batch starts every week</h5>
                             </div>
                         </div>
                         <div class='row bootcamp-bottom m-0'>
@@ -216,14 +288,14 @@
             <i class="fas fa-arrow-up"></i>
         </button>
         <!-- brochure pdf button  -->
-       <button
+       <!-- <button
           type="button"
           class="btn btn-danger btn-floating btn-lg"
           id="btn-brochure"
           title='DOWNLOAD BROCHURE'
         >
         <a href='./assets/pdf/KARKA-BROCHURE.pdf' target='_blank'><i class="fa fa-file-pdf-o text-white"></i></a> 
-      </button>
+      </button> -->
       <!-- whatsapp link button  -->
       <button
           type="button"
@@ -250,7 +322,21 @@
     </section>
     <!-- section end  -->
     <!-- footer section start  -->
-        <?php include 'include/footer.php' ?>
+    <footer class='container footer-section'>
+        <div class='row'>
+            <div class='col-lg-6 col-md-12 text-sm-center text-md-center text-lg-start text-center'>
+                <p>Copyright © 2023 Karka Acadamy</p>
+            </div>
+            <div class="col-lg-6 col-md-12 text-sm-center text-md-center text-lg-center text-center">
+                <a href="index.html" target="_self" class="text-decoration-none">Home</a>            
+                <a href="about.htl" target="_self" class="text-decoration-none">About</a>            
+                <a href="fullstack.html" target="_self" class="text-decoration-none">Fullstack</a>            
+                <a href="fees_pap.html" target="_self" class="text-decoration-none">Fees</a>            
+                <button type='button' class='get-in mt-3 sm-mt-0' onclick="window.open('https://karka.academy/apply/', '_blank')">Apply now</button>        
+            </div>
+        </div>
+    </footer>
+        <!-- <?php include 'include/footer.php' ?> -->
     <!-- footer section end  -->
 </body>
     <!--   Core JS Files   -->

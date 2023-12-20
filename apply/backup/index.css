@@ -1,0 +1,30 @@
+*{
+    padding:0;
+    margin:0
+}
+
+
+
+@media only screen and (max-width:430px){
+    .karka{
+        width: 100% !important;
+
+    }
+    
+    
+}
+    
+@media only screen and (max-width:375px){
+    .karka{
+        width: 100% !important
+        
+    }
+
+   
+}
+.whatsapp-logo{
+    /* border: 2px solid red; */
+}
+.main-karka{
+    border: 1px solid red;
+}

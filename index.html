@@ -44,20 +44,93 @@
   <body>
     <!-- header section start -->
     <header class='home'>
-        <?php include 'include/header.php' ?>
+        <!-- <?php include 'include/header.php' ?> -->
+        <!-- navbar section start -->
+<nav class="navbar navbar-expand-lg z-index-3 w-100 shadow-none navbar-transparent p-0 position-fixed bg-white">
+  <div class="container container-98 p-0">
+    <a class="text-dark w-15" href="index.html" rel="tooltip" title="Karka Academy" data-placement="bottom">
+      <img src='assets/img/karka-logos.png' alt='' class='black-logo'>
+      <img src='assets/img/karka-white.png' class='white-logo'/>
+    </a>
+    <a class="google-review ms-auto d-lg-block d-none" target='_blank' href="https://www.google.com/search?q=karka+software+academy&oq=karka+&aqs=chrome.0.35i39i355j46i39i175i199j69i57j69i60l5.3688j0j9&sourceid=chrome&ie=UTF-8#lrd=0x3b04f15dde0aa367:0xd5eb331016b805d0,1,,,," rel="tooltip" title="Karka Academy Reviews" data-placement="bottom">
+      <img src='assets/img/Google-reviews.jpg' alt='' class='w-75 rounded p-2 review-img'>
+    </a>
+    <a href="https://www.karka.academy/apply/index.html" class="btn btn-sm apply-now mb-0 ms-auto d-lg-none d-block" target='_blank'>Apply Now</a>
+    <button class="navbar-toggler shadow-none ms-2 collapsed btn-bg" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon">
+        <span class="navbar-toggler-bar bar1 text-dark"></span>
+        <span class="navbar-toggler-bar bar2 text-dark"></span>
+        <span class="navbar-toggler-bar bar3 text-dark"></span>
+      </span>
+    </button>
+    <div class="navbar-collapse w-100 pt-3 pb-2 py-lg-0 collapse" id="navigation" style="">
+      <ul class="navbar-nav navbar-nav-hover ms-auto nav-page" id='nav-ative-link'>
+        <li class='nav-item dropdown list-mar mb-2'>
+          <a href="index.html" class="nav-link nav-title ps-0 d-flex cursor-pointer align-items-center">
+            <img src='assets/img/home-fav-icon.svg' class="me-2"/>
+              Home
+          </a>
+          <div class="underline <?= ($activePage == 'index') ? 'active':''; ?>"></div>
+        </li>
+        <li class='nav-item dropdown list-mar mb-2'>
+          <a href="courses.html" class="nav-link nav-title ps-0 d-flex cursor-pointer align-items-center">
+            <img src='assets/img/course-fav-icon.svg' class="me-2"/>
+              Courses
+          </a>
+          <div class="underline <?= ($activePage == 'courses') ? 'active':''; ?>"></div>
+        </li>
+        <li class='nav-item dropdown list-mar mb-2'>
+          <a href="fees_pap.html" class="nav-link nav-title ps-0 d-flex cursor-pointer align-items-center">
+            <img src='assets/img/fee-fav-icon.svg' class="me-2"/>
+              Fees
+          </a>
+          <div class="underline <?= ($activePage == 'fees_pap') ? 'active':''; ?>"></div>
+        </li>
+        <li class='nav-item dropdown list-mar mb-2'>
+          <a href="fullstack.html" class="nav-link nav-title ps-0 d-flex cursor-pointer align-items-center">
+            <img src='assets/img/fullstack-fav-icon.svg' class="me-2"/>
+              Fullstack
+          </a>
+          <div class="underline <?= ($activePage == 'fullstack') ? 'active':''; ?>"></div>
+        </li>
+        <li class='nav-item dropdown list-mar mb-2'>
+          <a href="placement.html" class="nav-link nav-title ps-0 d-flex cursor-pointer align-items-center">
+            <img src='assets/img/placement-fav-icon.svg' class="me-2"/>
+              Placement
+          </a>
+          <div class="underline <?= ($activePage == 'placement') ? 'active':''; ?>"></div>
+        </li>
+        <li class='nav-item dropdown list-mar mb-2'>
+          <a href="about.html" class="nav-link nav-title ps-0 d-flex cursor-pointer align-items-center">
+            <img src='assets/img/contact-fav-icon.svg' class="me-2"/>
+              About Us
+          </a>
+          <div class="underline <?= ($activePage == 'about') ? 'active':''; ?>"></div>
+        </li>
+      </ul>
+      <ul class="navbar-nav d-lg-block d-none">
+        <li class="nav-item">
+          <a href="https://www.karka.academy/apply/index.html" class="btn btn-sm  apply-now mb-0 me-1 p-2" target='_blank'>Apply Now</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- navbar section end  -->
           <!-- You need to insert the Div-Tag with the ID "progressbar" -->
           <div id="progressbar"></div>
             <div class='row m-0 carousel-mar px-lg-4 px-md-4 px-sm-0 px-0 pt-8 pb-5 align-items-stretch'>
               <div class='col-lg-6 col-md-12 col-sm-12 col-12 section-karka mt-lg-0 mt-md-0 mt-sm-0'>
                 <h2 class="">KARKA<br/><span class='academy-font'><h3>ACADEMY</h3></span></h2>
                 <div class='content-para'>
-                  <p class="lead">At <span class='rs'>Rs.0</span> upfront fee, become an Industry Ready Junior Full Stack Developer.</p>
+                  <!-- <p class="lead">At <span class='rs'>Rs.0</span> upfront fee, become an Industry Ready Junior Full Stack Developer.</p> -->
+                  <p class="lead">Become an Industry Ready Junior Full Stack Developer.</p>
                   <p>100% Assured developer jobs in top IT companies offering  <b class='rs-laks'>high salaries !</b></p>
                 </div>
                 <div class="buttons">
                   <button type="button" class="btn apply-now mt-4">
-                    <a class='text-decoration-none' href='./apply/' target='_blank' >Apply now</a></button>
-                  <button type="button" class="btn read-more mt-4" onclick="window.location.href='./fees_pap.php'">READ MORE</button>
+                    <a class='text-decoration-none' href='https://www.karka.academy/apply/index.html' target='_blank' >Apply now</a></button>
+                  <button type="button" class="btn read-more mt-4" onclick="window.location.href='./fees_pap.html'">READ MORE</button>
                 </div>
               </div>
               <div class='col-lg-6 col-md-12 col-sm-12 col-12'>
@@ -91,7 +164,7 @@
               <button class='btn apply-btn p-3 mt-3' onclick="window.open('./apply/', '_blank')"><b>Upgrade Your Skills Today</b></button>
               <!-- <p class="lead mt-4 text-white">Learn the latest technologies and tools that top companies are looking for. Don't miss out on this opportunity to accelerate your success!</p> -->
               <p class="lead mt-4 text-white">Don't miss out on this opportunity to accelerate your success!</p>
-              <a class="pre-order-btn mt-4" href="./apply/" target='_blank'>Apply Now</a>
+              <a class="pre-order-btn mt-4" href="https://www.karka.academy/apply/index.html" target='_blank'>Apply Now</a>
             </div>
             <!-- <div class="modal-footer border-0">
               <button type="button" class="btn btn-default text-white" data-dismiss="modal" data-bs-dismiss="modal">Close</button>
@@ -130,11 +203,11 @@
             <img src='./assets/img/mission-3.png' class='position-absolute mission-3' />
             <img src='./assets/img/mission-4.png' class='position-absolute mission-4' />
             <img src='./assets/img/mission-5.png' class='position-absolute mission-5' />
-            <span class='position-absolute text-mission-1 text-start'>Pay only when<br/>you start earning</span>
-            <span class='position-absolute text-mission-2'>100% Assured job</span>
-            <span class='position-absolute text-mission-3 text-start'>Learn from<br/>industry experts</span>
-            <span class='position-absolute text-mission-4 team-start'>No upfront fee</span>
-            <span class='position-absolute text-mission-5 text-start'>4 months full<br/>time bootcamp</span>
+            <span class='position-absolute text-mission-1 text-center'>Pay only when<br/>you get a job</span>
+            <span class='position-absolute text-mission-2'>400 hours practical learning</span>
+            <span class='position-absolute text-mission-3 text-center'>Learn from<br/>industry experts</span>
+            <span class='position-absolute text-mission-4 team-start'>Know your skill profile</span>
+            <span class='position-absolute text-mission-5 text-center'>Bootcamp<br/>based training</span>
           </div>
         </div>
         <div class='mt-4 mission-section d-block d-lg-none d-md-none '>
@@ -142,14 +215,14 @@
           <div class="row position-relative">
             <div class="large-8 large-centered">
               <div class="wrapper">
-                <span class='position-absolute mobile-text-mission-1'>No upfront fee</span>
+                <span class='position-absolute mobile-text-mission-1'>Know your skill profile</span>
                 <div class="circle">
                   <img src='./assets/img/mission-4.png' class='w-50 position-absolute mobile-mission'/>
                 </div>
                 <div class="vertical-line"></div> 
               </div>
               <div class="wrapper">
-                <span class='position-absolute mobile-text-mission-2'>4 months full time bootcamp</span>
+                <span class='position-absolute mobile-text-mission-2'>Bootcamp based training</span>
                 <div class="circle">
                   <img src='./assets/img/mission-5.png' class='w-50 position-absolute mobile-mission'/>
                 </div>
@@ -163,14 +236,14 @@
                 <div class="vertical-line"></div> 
               </div>
               <div class="wrapper">
-                <span class='position-absolute mobile-text-mission-4'>100% Assured job</span>
+                <span class='position-absolute mobile-text-mission-4'>400 hours practical learning</span>
                 <div class="circle">
                   <img src='./assets/img/mission-2.png' class='w-50 position-absolute mobile-mission'/>
                 </div>
                 <div class="vertical-line"></div> 
               </div>
               <div class="wrapper">
-                <span class='position-absolute mobile-text-mission-5'>Pay only when you start learning</span>
+                <span class='position-absolute mobile-text-mission-5'>Pay only when you get a job</span>
                 <div class="circle">
                   <img src='./assets/img/mission-3.png' class='w-50 position-absolute mobile-mission'/>
                 </div>
@@ -187,7 +260,7 @@
           <div class="row container">
             <div class="col-md-12 col-lg-12 mx-auto text-center">
               <h3 class="text-white">Courses</h3>
-              <p class="text-white">This bootcamp oriented course is designed for anyone with an interest in learning. Delivered from our learning lab, the bootcamp will take you from the foundations to practical industry skills.</p>
+              <p class="text-white">This bootcamp oriented course is designed for anyone with high willingness to learn and gets skilled. Delivered from our learning lab, the bootcamp will take you from the foundations to practical industry skills.</p>
             </div>
           </div>
         </div>
@@ -201,10 +274,10 @@
                   <img src="./assets/img/Fullstack_Web_Development.png" alt="">
                 </div>
                 <div class="post-content">
-                  <h5>No Upfront Fee</h5>
+                  <!-- <h5>No Upfront Fee</h5> -->
                   <h4 class="post-title">Full Stack Web Development</h4>
                   <p class="post-description">Full-stack web developer creates complete end to end web applications. They work on the front-end, backend, database and debug the applications.</p>
-                  <a href="./fullstack.php" class="read-more">More Details</a>
+                  <a href="./fullstack.html" class="read-more">More Details</a>
                 </div>
               </div>
               <div>
@@ -213,10 +286,10 @@
                   <img src="./assets/img/Mobile_Development.png" alt="">
                 </div>
                 <div class="post-content">
-                  <h5>No Upfront Fee</h5>
+                  <!-- <h5>No Upfront Fee</h5> -->
                   <h4 class="post-title">Mobile App Development</h4>
                   <p class="post-description">Mobile apps have transformed the way we live. Building a great well groomed mobile apps can lead the market.</p>
-                  <a href="./courses.php" class="read-more">More Details</a>
+                  <a href="./courses.html" class="read-more">More Details</a>
                 </div>
               </div>
               </div>
@@ -226,10 +299,10 @@
                   <img src="./assets/img/Frontend_Web_Development.png" alt="">
                 </div>
                 <div class="post-content">
-                  <h5>No Upfront Fee</h5>
+                  <!-- <h5>No Upfront Fee</h5> -->
                   <h4 class="post-title">Frontend Web Development</h4>
                   <p class="post-description">Combining design, technology, and programming to code a website's appearance.</p>
-                  <a href="./courses.php" class="read-more">More Details</a>
+                  <a href="./courses.html" class="read-more">More Details</a>
                 </div>
               </div>
               </div>
@@ -242,7 +315,7 @@
                   <h5>No Upfront Fee</h5>
                   <h4 class="post-title">Backend Web Development</h4>
                   <p class="post-description">Combining design, technology, and programming to code a website's appearance.</p>
-                  <a href="./courses.php" class="read-more">More Details</a>
+                  <a href="./courses.html" class="read-more">More Details</a>
                 </div>
               </div>
               </div> -->
@@ -252,31 +325,31 @@
                   <img src="./assets/img/UI_UX_Development.png" alt="">
                 </div>
                 <div class="post-content">
-                  <h5>No Upfront Fee</h5>
+                  <!-- <h5>No Upfront Fee</h5> -->
                   <h4 class="post-title">UI/UX Development</h4>
                   <p class="post-description">UI/UX development is all about creating user interfaces and user experiences that are both effective and appealing.</p>
-                  <a href="./courses.php" class="read-more">More Details</a>
+                  <a href="./courses.html" class="read-more">More Details</a>
                 </div>
               </div>
               </div>
             </div>
             <div class='all-course text-center'>
-              <button type="button" class="btn all-courses mt-4 owl-item icon-move-right" onclick="window.location.href='./courses.php'">All Courses <i class="fas fa-arrow-right text-xs ms-1"></i></button>
+              <button type="button" class="btn all-courses mt-4 owl-item icon-move-right" onclick="window.location.href='./courses.html'">All Courses <i class="fas fa-arrow-right text-xs ms-1"></i></button>
             </div>
           </div>
         </div>
       </div>
       <!-- course section end  -->
       <!-- master box start  -->
-      <div class='master-box container'>
+      <!-- <div class='master-box container'>
         <h2>Mastery Box</h2>
         <div class='text-center'>
           <img src='assets/img/mastery-box.png' alt='' class='w-100'/>
         </div>
-      </div>
+      </div> -->
       <!-- master box end  -->
         <!-- instructor section start  -->
-        <div class="pb-5 position-relative instructor">
+        <!-- <div class="pb-5 position-relative instructor">
           <div class="container">
             <div class="row mb-5">
               <div class="col-md-12 col-lg-12 text-start mb-5 mt-4 instructor-title">
@@ -329,7 +402,7 @@
             </div>
             
           </div>
-        </div>
+        </div> -->
       <!-- instrcutor section end  -->
       <!-- company list view start -->
       <div class='mb-0' style="background-image: url('./assets/img/company-bg.webp')">
@@ -528,7 +601,7 @@
       </div>
       <!-- google review section end  -->
       <!-- enroll process start -->
-      <div class="enroll-process container">
+      <!-- <div class="enroll-process container">
         <div class="mb-4">
             <h3 class="section-center__title text-center">Path to Success</h3>
         </div>
@@ -579,7 +652,7 @@
             </div>
           </ul>
         </div>
-      </div>
+      </div> -->
       <!-- enroll process end  -->
       
       <!-- address section start  -->
@@ -651,7 +724,7 @@
         <i class="fas fa-arrow-up" ></i>
       </button>
       <!-- brochure pdf button  -->
-       <button
+       <!-- <button
           type="button"
           class="btn btn-danger btn-floating btn-lg download-brochure"
           id="btn-brochure"
@@ -659,7 +732,7 @@
           onclick="downloadBrochures()"
         >
         <i class="fa fa-file-pdf-o text-white download-brochure"></i>
-      </button>
+      </button> -->
       <!-- whatsapp link button  -->
       <button
           type="button"
@@ -685,7 +758,21 @@
     </section>
     <!-- main section end  -->
     <!-- footer section start  -->
-      <?php include 'include/footer.php' ?>
+    <footer class='container footer-section'>
+      <div class='row'>
+          <div class='col-lg-6 col-md-12 text-sm-center text-md-center text-lg-start text-center'>
+              <p>Copyright © 2023 Karka Acadamy</p>
+          </div>
+          <div class="col-lg-6 col-md-12 text-sm-center text-md-center text-lg-center text-center">
+              <a href="index.html" target="_self" class="text-decoration-none">Home</a>            
+              <a href="about.htl" target="_self" class="text-decoration-none">About</a>            
+              <a href="fullstack.html" target="_self" class="text-decoration-none">Fullstack</a>            
+              <a href="fees_pap.html" target="_self" class="text-decoration-none">Fees</a>            
+              <button type='button' class='get-in mt-3 sm-mt-0' onclick="window.open('https://www.karka.academy/apply/index.html', '_blank')">Apply now</button>        
+          </div>
+      </div>
+  </footer>
+      <!-- <?php include 'include/footer.php' ?> -->
     <!-- footer section end  -->
   </body>
   

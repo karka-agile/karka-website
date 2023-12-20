@@ -119,14 +119,14 @@ body{
     display: block !important;
     background-color: #6D416D !important;
     position: fixed;
-    bottom: 150px;
+    bottom: 95px;
     right: 20px;
     z-index: 999;
     border-radius: 25px;
   }
   #btn-review{
     position: fixed;
-    bottom: 205px;
+    bottom: 150px;
     right: 20px;
     z-index: 999;
     border-radius: 25px;

@@ -25,9 +25,81 @@
 </head>
 <body>
     <!-- header section start  -->
-    <header class='fee-sections'>
+    <!-- <header class='fee-sections'>
             <?php include 'include/header.php' ?>
-    </header>
+    </header> -->
+    <!-- navbar section start -->
+<nav class="navbar navbar-expand-lg z-index-3 w-100 shadow-none navbar-transparent p-0 position-fixed bg-white">
+    <div class="container container-98 p-0">
+      <a class="text-dark w-15" href="index.html" rel="tooltip" title="Karka Academy" data-placement="bottom">
+        <img src='assets/img/karka-logos.png' alt='' class='black-logo'>
+        <!-- <img src='assets/img/karka-white.png' class='white-logo'/> -->
+      </a>
+      <a class="google-review ms-auto d-lg-block d-none" target='_blank' href="https://www.google.com/search?q=karka+software+academy&oq=karka+&aqs=chrome.0.35i39i355j46i39i175i199j69i57j69i60l5.3688j0j9&sourceid=chrome&ie=UTF-8#lrd=0x3b04f15dde0aa367:0xd5eb331016b805d0,1,,,," rel="tooltip" title="Karka Academy Reviews" data-placement="bottom">
+        <img src='assets/img/Google-reviews.jpg' alt='' class='w-75 rounded p-2 review-img'>
+      </a>
+      <a href="https://karka.academy/apply/" class="btn btn-sm apply-now mb-0 ms-auto d-lg-none d-block" target='_blank'>Apply Now</a>
+      <button class="navbar-toggler shadow-none ms-2 collapsed btn-bg" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon">
+          <span class="navbar-toggler-bar bar1 text-dark"></span>
+          <span class="navbar-toggler-bar bar2 text-dark"></span>
+          <span class="navbar-toggler-bar bar3 text-dark"></span>
+        </span>
+      </button>
+      <div class="navbar-collapse w-100 pt-3 pb-2 py-lg-0 collapse" id="navigation" style="">
+        <ul class="navbar-nav navbar-nav-hover ms-auto nav-page" id='nav-ative-link'>
+          <li class='nav-item dropdown list-mar mb-2'>
+            <a href="index.html" class="nav-link nav-title ps-0 d-flex cursor-pointer align-items-center">
+              <img src='assets/img/home-fav-icon.svg' class="me-2"/>
+                Home
+            </a>
+            <div class="underline <?= ($activePage == 'index') ? 'active':''; ?>"></div>
+          </li>
+          <li class='nav-item dropdown list-mar mb-2'>
+            <a href="courses.html" class="nav-link nav-title ps-0 d-flex cursor-pointer align-items-center">
+              <img src='assets/img/course-fav-icon.svg' class="me-2"/>
+                Courses
+            </a>
+            <div class="underline <?= ($activePage == 'courses') ? 'active':''; ?>"></div>
+          </li>
+          <li class='nav-item dropdown list-mar mb-2'>
+            <a href="fees_pap.html" class="nav-link nav-title ps-0 d-flex cursor-pointer align-items-center">
+              <img src='assets/img/fee-fav-icon.svg' class="me-2"/>
+                Fees
+            </a>
+            <div class="underline <?= ($activePage == 'fees_pap') ? 'active':''; ?>"></div>
+          </li>
+          <li class='nav-item dropdown list-mar mb-2'>
+            <a href="fullstack.html" class="nav-link nav-title ps-0 d-flex cursor-pointer align-items-center">
+              <img src='assets/img/fullstack-fav-icon.svg' class="me-2"/>
+                Fullstack
+            </a>
+            <div class="underline <?= ($activePage == 'fullstack') ? 'active':''; ?>"></div>
+          </li>
+          <li class='nav-item dropdown list-mar mb-2'>
+            <a href="placement.html" class="nav-link nav-title ps-0 d-flex cursor-pointer align-items-center">
+              <img src='assets/img/placement-fav-icon.svg' class="me-2"/>
+                Placement
+            </a>
+            <div class="underline <?= ($activePage == 'placement') ? 'active':''; ?>"></div>
+          </li>
+          <li class='nav-item dropdown list-mar mb-2'>
+            <a href="about.html" class="nav-link nav-title ps-0 d-flex cursor-pointer align-items-center">
+              <img src='assets/img/contact-fav-icon.svg' class="me-2"/>
+                About Us
+            </a>
+            <div class="underline <?= ($activePage == 'about') ? 'active':''; ?>"></div>
+          </li>
+        </ul>
+        <ul class="navbar-nav d-lg-block d-none">
+          <li class="nav-item">
+            <a href="./apply/" class="btn btn-sm  apply-now mb-0 me-1 p-2" target='_blank'>Apply Now</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<!-- navbar section end  -->
     <!-- header section end  -->
     <!-- You need to insert the Div-Tag with the ID "progressbar" -->
     <div id="progressbar"></div>
@@ -42,7 +114,7 @@
                     <h2 class="">KARKA’S</h2>
                     <h4>Pay After Placement Program</h4>
                     <p>We offload you from the burden of paying hefty fees to enrich your skills by top industry mentors.</p>
-                    <p>Pay your bootcamp fee only after you get a job and start earning. You do not need to pay any upfront fee initially.</p>
+                    <p>Pay your bootcamp fee only after you get a job. You just need to clear two weeks paid essentials program.</p>
                 </div>
             </div>
             <div class="what-pap position-relative mx-xxl-8 mx-xl-4 mx-lg-3 mx-3 py-1 z-index-2 border-radius-xl mt-n8 overflow-hidden">
@@ -97,11 +169,11 @@
                         <img src='./assets/img/message_icon.png' />
                     </div>
                     <div class=' col-lg-11 col-md-11 col-sm-11 col-10 agree-step'>
-                        <h5>job Assured</h5>
+                        <h5>Job Assured</h5>
                         <p>After the successful completion, we assure you a job for a higher salary based on your capability.</p>
                     </div>
                 </div>
-                <div class='row agree-bottom'>
+                <!-- <div class='row agree-bottom'>
                     <div class=' col-lg-1 col-md-1 col-sm-1 col-2'>
                         <img src='./assets/img/job_guaranted.png' />
                     </div>
@@ -109,7 +181,7 @@
                         <h5>High salary package</h5>
                         <p>Transform your career and reach unprecedented heights with the potential to unlock remarkable salary packages, by exceeding expectations and excelling in your field.</p>
                     </div>
-                </div>
+                </div> -->
                 <div class='row agree-bottom'>
                     <div class=' col-lg-1 col-md-1 col-sm-1 col-2'>
                         <img src='./assets/img/nojob_nofee.png' />
@@ -140,7 +212,8 @@
                         </div>
                         <div class=' col-lg-11 col-md-11 col-sm-11 col-10 agree-step'>
                             <h5>Pay after placement</h5>
-                            <p>Your fee payment starts only when you get a job and you start earning.</p>
+                            <p>You have an option of paying your course fee only when you get a job.</p>
+                            <!-- <p>Your fee payment starts only when you get a job and you start earning.</p> -->
                         </div>
                     </div>
                     <div class='row agree-bottom'>
@@ -152,7 +225,7 @@
                             <p>You should maintain academic progress to ensure your continued enrollment and successful completion of the course.</p>
                         </div>
                     </div>
-                    <div class='row agree-bottom'>
+                    <!-- <div class='row agree-bottom'>
                         <div class=' col-lg-1 col-md-1 col-sm-1 col-2'>
                             <img src='./assets/img/pap_icon.png' />
                         </div> 
@@ -160,7 +233,7 @@
                             <h5>Monthly fee payment (EMI)</h5>
                             <p>You pay an affordable fee payment for 12 months* ( figures only for illustration actuals may be different ) to settle your bootcamp fee that got you the job and you start earning.</p>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="col-md-12 col-lg-6 ms-md-0">
                     <div class="cursor-pointer h-100">
@@ -184,14 +257,14 @@
             <i class="fas fa-arrow-up"></i>
         </button>
         <!-- brochure pdf button  -->
-        <button
+        <!-- <button
           type="button"
           class="btn btn-danger btn-floating btn-lg"
           id="btn-brochure"
           title='DOWNLOAD BROCHURE'
         >
         <a href='./assets/pdf/KARKA-BROCHURE.pdf' target='_blank'><i class="fa fa-file-pdf-o text-white"></i></a> 
-      </button>
+      </button> -->
       <!-- whatsapp link button  -->
       <button
           type="button"
@@ -217,7 +290,21 @@
     </section>
     <!-- section end  -->
     <!-- footer section start  -->
-        <?php include 'include/footer.php' ?>
+    <footer class='container footer-section'>
+        <div class='row'>
+            <div class='col-lg-6 col-md-12 text-sm-center text-md-center text-lg-start text-center'>
+                <p>Copyright © 2023 Karka Acadamy</p>
+            </div>
+            <div class="col-lg-6 col-md-12 text-sm-center text-md-center text-lg-center text-center">
+                <a href="index.html" target="_self" class="text-decoration-none">Home</a>            
+                <a href="about.htl" target="_self" class="text-decoration-none">About</a>            
+                <a href="fullstack.html" target="_self" class="text-decoration-none">Fullstack</a>            
+                <a href="fees_pap.html" target="_self" class="text-decoration-none">Fees</a>            
+                <button type='button' class='get-in mt-3 sm-mt-0' onclick="window.open('https://karka.academy/apply/', '_blank')">Apply now</button>        
+            </div>
+        </div>
+    </footer>
+        <!-- <?php include 'include/footer.php' ?> -->
     <!-- footer section end  -->
     
 </body>

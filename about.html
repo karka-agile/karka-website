@@ -26,7 +26,79 @@
 <body>
      <!-- header section start -->
      <header class='about-us'>
-        <?php include 'include/header.php' ?>
+        <!-- <?php include 'include/header.php' ?> -->
+        <!-- navbar section start -->
+<nav class="navbar navbar-expand-lg z-index-3 w-100 shadow-none navbar-transparent p-0 position-fixed bg-white">
+  <div class="container container-98 p-0">
+    <a class="text-dark w-15" href="index.html" rel="tooltip" title="Karka Academy" data-placement="bottom">
+      <img src='assets/img/karka-logos.png' alt='' class='black-logo'>
+      <!-- <img src='assets/img/karka-white.png' class='white-logo'/> -->
+    </a>
+    <a class="google-review ms-auto d-lg-block d-none" target='_blank' href="https://www.google.com/search?q=karka+software+academy&oq=karka+&aqs=chrome.0.35i39i355j46i39i175i199j69i57j69i60l5.3688j0j9&sourceid=chrome&ie=UTF-8#lrd=0x3b04f15dde0aa367:0xd5eb331016b805d0,1,,,," rel="tooltip" title="Karka Academy Reviews" data-placement="bottom">
+      <img src='assets/img/Google-reviews.jpg' alt='' class='w-75 rounded p-2 review-img'>
+    </a>
+    <a href="https://karka.academy/apply/" class="btn btn-sm apply-now mb-0 ms-auto d-lg-none d-block" target='_blank'>Apply Now</a>
+    <button class="navbar-toggler shadow-none ms-2 collapsed btn-bg" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon">
+        <span class="navbar-toggler-bar bar1 text-dark"></span>
+        <span class="navbar-toggler-bar bar2 text-dark"></span>
+        <span class="navbar-toggler-bar bar3 text-dark"></span>
+      </span>
+    </button>
+    <div class="navbar-collapse w-100 pt-3 pb-2 py-lg-0 collapse" id="navigation" style="">
+      <ul class="navbar-nav navbar-nav-hover ms-auto nav-page" id='nav-ative-link'>
+        <li class='nav-item dropdown list-mar mb-2'>
+          <a href="index.html" class="nav-link nav-title ps-0 d-flex cursor-pointer align-items-center">
+            <img src='assets/img/home-fav-icon.svg' class="me-2"/>
+              Home
+          </a>
+          <div class="underline <?= ($activePage == 'index') ? 'active':''; ?>"></div>
+        </li>
+        <li class='nav-item dropdown list-mar mb-2'>
+          <a href="courses.html" class="nav-link nav-title ps-0 d-flex cursor-pointer align-items-center">
+            <img src='assets/img/course-fav-icon.svg' class="me-2"/>
+              Courses
+          </a>
+          <div class="underline <?= ($activePage == 'courses') ? 'active':''; ?>"></div>
+        </li>
+        <li class='nav-item dropdown list-mar mb-2'>
+          <a href="fees_pap.html" class="nav-link nav-title ps-0 d-flex cursor-pointer align-items-center">
+            <img src='assets/img/fee-fav-icon.svg' class="me-2"/>
+              Fees
+          </a>
+          <div class="underline <?= ($activePage == 'fees_pap') ? 'active':''; ?>"></div>
+        </li>
+        <li class='nav-item dropdown list-mar mb-2'>
+          <a href="fullstack.html" class="nav-link nav-title ps-0 d-flex cursor-pointer align-items-center">
+            <img src='assets/img/fullstack-fav-icon.svg' class="me-2"/>
+              Fullstack
+          </a>
+          <div class="underline <?= ($activePage == 'fullstack') ? 'active':''; ?>"></div>
+        </li>
+        <li class='nav-item dropdown list-mar mb-2'>
+          <a href="placement.html" class="nav-link nav-title ps-0 d-flex cursor-pointer align-items-center">
+            <img src='assets/img/placement-fav-icon.svg' class="me-2"/>
+              Placement
+          </a>
+          <div class="underline <?= ($activePage == 'placement') ? 'active':''; ?>"></div>
+        </li>
+        <li class='nav-item dropdown list-mar mb-2'>
+          <a href="about.html" class="nav-link nav-title ps-0 d-flex cursor-pointer align-items-center">
+            <img src='assets/img/contact-fav-icon.svg' class="me-2"/>
+              About Us
+          </a>
+          <div class="underline <?= ($activePage == 'about') ? 'active':''; ?>"></div>
+        </li>
+      </ul>
+      <ul class="navbar-nav d-lg-block d-none">
+        <li class="nav-item">
+          <a href="./apply/" class="btn btn-sm  apply-now mb-0 me-1 p-2" target='_blank'>Apply Now</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- navbar section end  -->
         <!-- You need to insert the Div-Tag with the ID "progressbar" -->
         <div id="progressbar"></div>
         <div class='placement-palce pt-lg-6 pt-md-6 pt-sm-7 pt-7'>
@@ -72,7 +144,7 @@
                 </div>
             </div>
         </div>
-        <div class='about-founder'>
+        <!-- <div class='about-founder'>
             <div class="container">
               <h3 class="text-center mb-7">FOUNDERS</h3>
               <div class="row device-width mx-auto">
@@ -119,7 +191,7 @@
               </div>
             </div>
         </div>
-      </div>
+      </div> -->
         <!-- address section start  -->
       <div class="py-4 bg-white position-relative address-section">
         <div class="page-header min-vh-50" style="background: linear-gradient(180deg, #202020 0%, #D587E4 100%);">
@@ -187,14 +259,14 @@
             <i class="fas fa-arrow-up"></i>
         </button>
         <!-- brochure pdf button  -->
-        <button
+        <!-- <button
           type="button"
           class="btn btn-danger btn-floating btn-lg"
           id="btn-brochure"
           title='DOWNLOAD BROCHURE'
         >
          <a href='./assets/pdf/KARKA-BROCHURE.pdf' target='_blank''><i class="fa fa-file-pdf-o text-white"></i></a> 
-        </button>
+        </button> -->
         <!-- whatsapp link button  -->
         <button
           type="button"
@@ -220,7 +292,21 @@
     </section>
     <!-- section end  -->
     <!-- footer section start  -->
-    <?php include 'include/footer.php' ?>
+    <footer class='container footer-section'>
+      <div class='row'>
+          <div class='col-lg-6 col-md-12 text-sm-center text-md-center text-lg-start text-center'>
+              <p>Copyright © 2023 Karka Acadamy</p>
+          </div>
+          <div class="col-lg-6 col-md-12 text-sm-center text-md-center text-lg-center text-center">
+              <a href="index.html" target="_self" class="text-decoration-none">Home</a>            
+              <a href="about.htl" target="_self" class="text-decoration-none">About</a>            
+              <a href="fullstack.html" target="_self" class="text-decoration-none">Fullstack</a>            
+              <a href="fees_pap.html" target="_self" class="text-decoration-none">Fees</a>            
+              <button type='button' class='get-in mt-3 sm-mt-0' onclick="window.open('https://karka.academy/apply/', '_blank')">Apply now</button>        
+          </div>
+      </div>
+  </footer>
+    <!-- <?php include 'include/footer.php' ?> -->
     <!-- footer section end  -->
 </body>
     <!--   Core JS Files   -->
