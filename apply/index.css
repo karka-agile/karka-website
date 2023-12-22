@@ -8,6 +8,10 @@
     
 
 }
+.card-shadow{
+    box-shadow:2px 2px 2px 2px rgba(0, 0, 0, 0.434)  ;
+
+}
 .container{
     display: flex;
     justify-content: center;
@@ -42,7 +46,7 @@ display: inline-flex;
     background-color:#E5D2EC;
     /* width: 650px; */
     overflow: hidden;
-    position: relative;
+    /* position: relative; */
 
     
 }
@@ -60,8 +64,8 @@ display: inline-flex;
 .asd i{
     font-size: 5px;
     vertical-align: top;
-    margin-top: 5px;
-    margin-right: 2px;
+    margin-top: 13px;
+    margin-right: 4px;
 }
 .asd p{
     font-size: small;
@@ -200,6 +204,29 @@ h6 span{
 .label.circle5{
     font-size: large;
 }
+@media only screen and (max-width:1440px){
+
+    .phone-logo{
+        right: 390px;
+    }
+    }
+
+@media only screen and (max-width:1024px){
+
+    .phone-logo{
+        right: 210px;
+    }
+    }
+@media only screen and (max-width:768px){
+
+        .phone-logo{
+            right: 115px;
+        }
+        }
+    
+
+
+
 @media only screen and (max-width:425px) {
     .round1{
         margin-top:40%;
@@ -210,6 +237,9 @@ h6 span{
     }
     .google1{
         margin-left: 100px;
+    }
+    .phone-logo{
+        right: 90px;
     }
     
     
@@ -224,10 +254,30 @@ h6 span{
         text-align: center;
     }
     .google1{
-        margin-left: 50px;
+        margin-left: 75px;
     }
-    
+   
     
 }
+@media only screen and (max-width:320px){
+
+    .phone-logo{
+        right: 90px;
+    }
+    .google1{
+        margin-left: 50px;
+    }
+.round1{
+    margin-left: -130px!important;
+}
+
+
+    
+    }
+
+    
+    
+    
+
 
 
